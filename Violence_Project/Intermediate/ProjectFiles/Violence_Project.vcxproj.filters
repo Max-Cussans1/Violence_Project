@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Violence_Project.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{3FC0F902-C15A-4352-888F-276A68D8A198}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Violence_Project.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Violence_ProjectEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{D94EBDCF-7E20-446D-A946-70D22AB7BA9A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Violence_Project">
+			<UniqueIdentifier>{393A29E5-4F72-4020-8EF6-66FFCDDFC0B1}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Violence_Project\MyCharacter.cpp">
+			<Filter>Source\Violence_Project</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Violence_Project\MyCharacter.h">
+			<Filter>Source\Violence_Project</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\Violence_Project\Violence_Project.Build.cs">
+			<Filter>Source\Violence_Project</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Violence_Project\Violence_Project.cpp">
+			<Filter>Source\Violence_Project</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Violence_Project\Violence_Project.h">
+			<Filter>Source\Violence_Project</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

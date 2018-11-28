@@ -1,0 +1,3 @@
+C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Source\Violence_Project\Violence_Project.Build.cs
+C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Source\Violence_Project.Target.cs
+C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Source\Violence_ProjectEditor.Target.cs
