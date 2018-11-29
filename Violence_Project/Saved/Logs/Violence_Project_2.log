@@ -4995,3 +4995,957 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2018.11.29-10.07.33:970][111]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
 [2018.11.29-10.07.34:019][111]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/ThirdPersonCharacter_Auto36E6378EE47C6DA0C8A49DF8605E747D3.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto3.uasset'
 [2018.11.29-10.07.34:020][111]LogFileHelpers: Auto-saving content packages took 0.063
+[2018.11.29-10.09.00:656][371]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.09.12:481][255]LogAssetEditorManager: Opening Asset editor for BlendSpace /Game/Assets/Character/WalkRun_BS.WalkRun_BS
+[2018.11.29-10.09.12:566][255]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.29-10.09.12:593][255]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.29-10.09.12:911][255]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.11.29-10.09.20:419][622]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/WalkRun_BS5B183EB74E7692F026ECBCA686FC1F6C.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/Assets/Character/WalkRun_BS.uasset'
+[2018.11.29-10.09.21:382][670]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-10.09.21:395][670]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.09.21:395][670]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.29-10.09.21:395][670]PIE: New page: PIE session: ThirdPersonExampleMap (29 Nov 2018 10:09:21)
+[2018.11.29-10.09.21:395][670]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.11.29-10.09.21:403][670]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008164s)
+[2018.11.29-10.09.21:404][670]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.29-10.09.21:404][670]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2018.11.29-10.09.21:404][670]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.008892s)
+[2018.11.29-10.09.21:442][670]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.29-10.09.21:449][670]LogInit: FAudioDevice initialized.
+[2018.11.29-10.09.21:487][670]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.29-10.09.21:492][670]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.29-10.09.21
+[2018.11.29-10.09.21:494][670]LogWorld: Bringing up level for play took: 0.003710
+[2018.11.29-10.09.21:508][670]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.381
+[2018.11.29-10.09.21:508][670]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.09.34:681][176]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.29-10.09.53:794][393]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.09.55:699][492]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.09.55:771][497]LogSlate: Window 'WalkRun_BS' being destroyed
+[2018.11.29-10.09.55:780][497]LogSlate: Window 'WalkRun_BS' being destroyed
+[2018.11.29-10.10.05:508][630]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.10.05:508][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.10.05:538][630]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.29-10.10.05:539][630]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.10.05:573][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.10.05:612][632]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2018.11.29-10.10.16:331][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.10.56:657][ 56]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\max-c\FPS Assets\FPSAssets\Weapon\AK.obj)
+[2018.11.29-10.10.56:663][ 56]LogFbx: Loading FBX Scene from C:\Users\max-c\FPS Assets\FPSAssets\Weapon\AK.obj
+[2018.11.29-10.10.56:715][ 56]LogFbx: FBX Scene Loaded Succesfully
+[2018.11.29-10.11.14:246][ 56]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.11.29-10.11.14:271][ 56]LogFbx: =================================================
+[2018.11.29-10.11.14:271][ 56]LogFbx: Dumping Node START [AK] 
+[2018.11.29-10.11.14:271][ 56]LogFbx: 	Total Deformer Count 1651002288.
+[2018.11.29-10.11.14:271][ 56]LogFbx: 	Attribute () Type (4).
+[2018.11.29-10.11.14:271][ 56]LogFbx: 		[Node Attribute Child 1] AK (Type Mesh).
+[2018.11.29-10.11.14:271][ 56]LogFbx: Dumping Node END [AK]
+[2018.11.29-10.11.14:271][ 56]LogFbx: =================================================
+[2018.11.29-10.11.14:271][ 56]LogFbx: Dumping Node START [AK] 
+[2018.11.29-10.11.14:271][ 56]LogFbx: 	Total Deformer Count 1651002288.
+[2018.11.29-10.11.14:271][ 56]LogFbx: 	Attribute () Type (4).
+[2018.11.29-10.11.14:271][ 56]LogFbx: 		[Node Attribute Child 1] AK (Type Mesh).
+[2018.11.29-10.11.14:271][ 56]LogFbx: Dumping Node END [AK]
+[2018.11.29-10.11.14:271][ 56]LogFbx: =================================================
+[2018.11.29-10.11.14:271][ 56]LogFbx: Dumping Node START [AK] 
+[2018.11.29-10.11.14:271][ 56]LogFbx: 	Total Deformer Count 1651002288.
+[2018.11.29-10.11.14:271][ 56]LogFbx: 	Attribute () Type (4).
+[2018.11.29-10.11.14:271][ 56]LogFbx: 		[Node Attribute Child 1] AK (Type Mesh).
+[2018.11.29-10.11.14:271][ 56]LogFbx: Dumping Node END [AK]
+[2018.11.29-10.11.14:273][ 56]LogMaterial: Warning: Material /Game/ThirdPersonBP/Blueprints/Weapons/AK47/AKMat.AKMat needed to have new flag set bUsedWithSkeletalMesh !
+[2018.11.29-10.11.14:274][ 56]LogMaterial: Display: Missing cached shader map for material AKMat, compiling. 
+[2018.11.29-10.11.14:297][ 56]LogMaterial: Display: Missing cached shader map for material AKMat, compiling. 
+[2018.11.29-10.11.14:317][ 56]LogFbx: Triangulating skeletal mesh AK
+[2018.11.29-10.11.14:595][ 56]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.11.29-10.11.14:595][ 56]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.11.29-10.11.14:595][ 56]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.29-10.11.14:595][ 56]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.29-10.11.14:595][ 56]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.29-10.11.14:595][ 56]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.29-10.11.14:595][ 56]LogFbx: Warning: Bones digested - 1  Depth of hierarchy - 1
+[2018.11.29-10.11.14:751][ 56]LogSkeletalMesh: Section 0: 5823 vertices, 1 active bones
+[2018.11.29-10.11.14:752][ 56]LogSkeletalMesh: Section 0: Material=0, 8892 triangles
+[2018.11.29-10.11.14:752][ 56]LogSkeletalMesh: Building Skeletal Mesh AK...
+[2018.11.29-10.11.14:759][ 56]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK.AK
+[2018.11.29-10.11.14:761][ 56]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_Skeleton'
+[2018.11.29-10.11.14:762][ 56]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_Skeleton'
+[2018.11.29-10.11.14:764][ 56]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_PhysicsAsset'
+[2018.11.29-10.11.14:764][ 56]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_PhysicsAsset'
+[2018.11.29-10.11.14:773][ 56]LogSkeletalMesh: Building Skeletal Mesh AK...
+[2018.11.29-10.11.14:782][ 56]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK.AK
+[2018.11.29-10.11.14:788][ 56]FBXImport: Warning: Could not find the bind pose.  It will use time 0 as bind pose. 
+[2018.11.29-10.11.14:805][ 56]LogSkeletalMesh: Building Skeletal Mesh AK...
+[2018.11.29-10.11.14:816][ 56]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK.AK
+[2018.11.29-10.11.19:173][366]LogSlate: Window 'Message Log' being destroyed
+[2018.11.29-10.11.19:190][366]LogSlate: Window 'Message Log' being destroyed
+[2018.11.29-10.11.31:768][103]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\max-c\FPS Assets\FPSAssets\Weapon\AK_diffuse.jpg)
+[2018.11.29-10.11.31:884][103]LogTexture: Display: Building textures: AK_diffuse (AutoDXT, 2048X2048)
+[2018.11.29-10.11.32:654][103]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\max-c\FPS Assets\FPSAssets\Weapon\AK_normal.jpg)
+[2018.11.29-10.11.32:843][103]LogTexture: Display: Building textures: AK_normal (BC5, 2048X2048)
+[2018.11.29-10.11.32:983][103]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\max-c\FPS Assets\FPSAssets\Weapon\AK_specular.jpg)
+[2018.11.29-10.11.33:008][103]LogTexture: Display: Building textures: AK_specular (AutoDXT, 2048X2048)
+[2018.11.29-10.12.39:614][876]LogAssetEditorManager: Opening Asset editor for Material /Game/ThirdPersonBP/Blueprints/Weapons/AK47/AKMat.AKMat
+[2018.11.29-10.12.39:631][876]LogMaterial: Display: Missing cached shader map for material AKMat, compiling. 
+[2018.11.29-10.12.39:709][876]LogMaterial: Display: Missing cached shader map for material AKMat, compiling. 
+[2018.11.29-10.12.39:737][876]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.11.29-10.12.39:737][876]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.11.29-10.12.39:737][876]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.11.29-10.12.39:737][876]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.11.29-10.12.39:737][876]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.11.29-10.12.39:737][876]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.11.29-10.12.39:737][876]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.11.29-10.12.39:737][876]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.11.29-10.12.39:761][876]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.11.29-10.12.40:322][903]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.11.29-10.12.40:349][905]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.11.29-10.12.40:351][905]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.11.29-10.12.40:362][906]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.11.29-10.12.40:362][906]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.11.29-10.12.40:382][907]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.11.29-10.12.40:390][908]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.11.29-10.12.40:396][908]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.11.29-10.12.40:461][913]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.11.29-10.12.40:550][919]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.29-10.12.40:603][923]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.11.29-10.12.40:676][928]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.11.29-10.12.40:713][931]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.11.29-10.12.40:714][931]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.29-10.12.40:741][933]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.11.29-10.12.40:756][934]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.11.29-10.12.40:768][935]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.11.29-10.12.40:826][939]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.11.29-10.12.40:898][944]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.11.29-10.12.40:938][947]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.11.29-10.12.40:940][947]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.11.29-10.12.40:955][948]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.11.29-10.12.40:955][948]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.11.29-10.12.40:967][949]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.29-10.12.40:997][951]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.11.29-10.12.41:019][953]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.11.29-10.12.41:053][955]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.11.29-10.12.41:091][958]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.11.29-10.12.41:177][964]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.11.29-10.12.41:234][968]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.11.29-10.12.41:275][971]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.11.29-10.12.41:292][972]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.29-10.12.41:303][973]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.29-10.12.41:348][976]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.29-10.12.41:377][978]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.11.29-10.12.41:415][981]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.11.29-10.12.41:457][984]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.11.29-10.12.41:503][987]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.11.29-10.12.41:512][988]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.29-10.12.41:529][989]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.29-10.12.41:540][990]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.11.29-10.12.41:556][991]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.29-10.12.41:570][992]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.29-10.12.41:584][993]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.29-10.12.41:601][994]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.11.29-10.12.41:642][997]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.11.29-10.12.41:655][998]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.11.29-10.12.41:753][  5]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.11.29-10.12.41:808][  9]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.29-10.12.41:852][ 12]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.29-10.12.41:892][ 15]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.11.29-10.12.41:906][ 16]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.29-10.12.41:946][ 19]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.29-10.12.42:161][ 34]MaterialEditorStats: Base pass shader: 101 instructions
+[2018.11.29-10.12.42:161][ 34]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2018.11.29-10.12.42:161][ 34]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2018.11.29-10.12.42:161][ 34]MaterialEditorStats: Base pass vertex shader: 87 instructions
+[2018.11.29-10.12.42:161][ 34]MaterialEditorStats: Texture samplers: 3/16
+[2018.11.29-10.12.51:168][361]LogSlate: Window 'Message' being destroyed
+[2018.11.29-10.12.51:172][361]LogSlate: Window 'AKMat*' being destroyed
+[2018.11.29-10.12.51:173][361]LogSlate: Window 'AKMat*' being destroyed
+[2018.11.29-10.12.59:242][600]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.29-10.12.59:647][600]LogSkeletalMesh: Building Skeletal Mesh AK...
+[2018.11.29-10.12.59:654][600]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK.AK
+[2018.11.29-10.13.09:676][382]LogSlate: Window 'Delete Assets' being destroyed
+[2018.11.29-10.13.23:440][595]LogAssetEditorManager: Opening Asset editor for Material /Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK47_Mat.AK47_Mat
+[2018.11.29-10.13.23:442][595]LogMaterial: Display: Missing cached shader map for material AK47_Mat, compiling. 
+[2018.11.29-10.13.23:571][595]LogMaterial: Display: Missing cached shader map for material AK47_Mat, compiling. 
+[2018.11.29-10.13.23:581][595]LogMaterial: Display: Missing cached shader map for material AK47_Mat, compiling. 
+[2018.11.29-10.13.23:597][595]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.29-10.13.23:597][595]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.29-10.13.23:597][595]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.11.29-10.13.23:597][595]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.11.29-10.13.23:597][595]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.11.29-10.13.23:597][595]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.11.29-10.13.23:597][595]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.29-10.13.23:597][595]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.29-10.13.24:210][615]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.11.29-10.13.24:220][616]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.29-10.13.24:231][617]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.29-10.13.24:244][618]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.29-10.13.24:244][618]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.11.29-10.13.24:256][619]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.11.29-10.13.24:256][619]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.11.29-10.13.24:271][620]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.11.29-10.13.24:343][625]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.29-10.13.24:429][631]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.29-10.13.24:470][634]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.11.29-10.13.24:554][640]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.29-10.13.24:581][642]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.29-10.13.24:876][660]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.11.29-10.13.24:876][660]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.11.29-10.13.24:876][660]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2018.11.29-10.13.24:876][660]MaterialEditorStats: Texture samplers: 3/16
+[2018.11.29-10.13.30:540][939]LogMaterial: Display: Missing cached shader map for material AK47_Mat, compiling. 
+[2018.11.29-10.13.30:550][939]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.29-10.13.30:550][939]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.29-10.13.30:550][939]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.11.29-10.13.30:550][939]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.11.29-10.13.30:550][939]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.11.29-10.13.30:550][939]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.11.29-10.13.30:550][939]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.29-10.13.30:550][939]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.29-10.13.30:550][939]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.11.29-10.13.30:718][946]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.11.29-10.13.30:720][946]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.29-10.13.30:730][947]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.29-10.13.30:730][947]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.29-10.13.30:741][948]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.11.29-10.13.30:741][948]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.11.29-10.13.30:741][948]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.11.29-10.13.30:741][948]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.11.29-10.13.30:827][954]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.29-10.13.30:942][962]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.29-10.13.30:957][963]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.11.29-10.13.31:055][969]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.29-10.13.31:067][969]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.29-10.13.31:293][976]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.11.29-10.13.31:293][976]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.11.29-10.13.31:293][976]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2018.11.29-10.13.31:293][976]MaterialEditorStats: Texture samplers: 3/16
+[2018.11.29-10.14.13:451][934]LogMaterial: Display: Missing cached shader map for material AK47_Mat, compiling. 
+[2018.11.29-10.14.13:463][934]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.29-10.14.13:463][934]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.29-10.14.13:463][934]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.11.29-10.14.13:463][934]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.11.29-10.14.13:463][934]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.11.29-10.14.13:463][934]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.11.29-10.14.13:463][934]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.29-10.14.13:463][934]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.29-10.14.13:463][934]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.11.29-10.14.13:490][934]LogMaterial: Display: Missing cached shader map for material AK47_Mat, compiling. 
+[2018.11.29-10.14.14:069][976]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.11.29-10.14.14:097][978]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.29-10.14.14:106][979]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.29-10.14.14:106][979]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.29-10.14.14:121][980]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.11.29-10.14.14:133][981]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.11.29-10.14.14:133][981]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.11.29-10.14.14:148][982]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.11.29-10.14.14:318][994]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.29-10.14.14:320][994]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.29-10.14.14:320][994]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.11.29-10.14.14:333][995]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.29-10.14.14:333][995]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.29-10.14.14:346][996]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.29-10.14.14:346][996]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.11.29-10.14.14:372][998]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.11.29-10.14.14:428][  2]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.11.29-10.14.14:442][  3]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.11.29-10.14.14:456][  4]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.29-10.14.14:542][ 10]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.29-10.14.14:641][ 17]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.11.29-10.14.14:654][ 18]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.29-10.14.14:681][ 20]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.29-10.14.14:971][ 38]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.11.29-10.14.14:971][ 38]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.11.29-10.14.14:971][ 38]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2018.11.29-10.14.14:971][ 38]MaterialEditorStats: Texture samplers: 3/16
+[2018.11.29-10.14.21:490][332]LogMaterial: Display: Missing cached shader map for material AK47_Mat, compiling. 
+[2018.11.29-10.14.21:505][332]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.11.29-10.14.21:519][332]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.11.29-10.14.21:519][332]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.29-10.14.21:519][332]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.29-10.14.21:519][332]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.29-10.14.21:519][332]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.11.29-10.14.21:519][332]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.11.29-10.14.21:519][332]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.11.29-10.14.21:519][332]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.11.29-10.14.21:682][345]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.29-10.14.21:696][346]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.29-10.14.21:701][346]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.11.29-10.14.21:712][347]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.29-10.14.21:715][347]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.29-10.14.21:715][347]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.29-10.14.21:726][348]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.11.29-10.14.21:738][349]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.11.29-10.14.21:808][354]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.11.29-10.14.21:910][361]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.11.29-10.14.21:940][362]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.29-10.14.22:025][366]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.29-10.14.22:057][366]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.11.29-10.14.22:063][366]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.29-10.14.22:086][367]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.29-10.14.22:425][376]MaterialEditorStats: Base pass shader: 102 instructions
+[2018.11.29-10.14.22:425][376]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2018.11.29-10.14.22:425][376]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2018.11.29-10.14.22:425][376]MaterialEditorStats: Texture samplers: 4/16
+[2018.11.29-10.14.22:425][376]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2018.11.29-10.14.22:425][376]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.29-10.14.42:204][541]LogMaterial: Display: Missing cached shader map for material AK47_Mat, compiling. 
+[2018.11.29-10.14.42:214][541]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.11.29-10.14.42:247][542]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.29-10.14.42:247][542]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.29-10.14.42:247][542]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.11.29-10.14.42:247][542]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.11.29-10.14.42:247][542]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.11.29-10.14.42:247][542]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.11.29-10.14.42:247][542]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.29-10.14.42:247][542]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.29-10.14.42:343][545]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.29-10.14.42:351][546]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.29-10.14.42:451][553]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.11.29-10.14.42:589][561]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.29-10.14.42:692][562]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.29-10.14.42:741][562]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.29-10.14.42:753][562]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.11.29-10.14.42:786][565]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.11.29-10.14.42:809][567]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.11.29-10.14.42:909][574]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.11.29-10.14.42:909][574]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.29-10.14.42:940][576]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.29-10.14.42:978][579]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.11.29-10.14.43:021][582]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.29-10.14.43:107][588]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.29-10.14.43:277][600]MaterialEditorStats: Base pass shader: 102 instructions
+[2018.11.29-10.14.43:277][600]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 175 instructions
+[2018.11.29-10.14.43:277][600]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2018.11.29-10.14.43:277][600]MaterialEditorStats: Texture samplers: 4/16
+[2018.11.29-10.14.43:277][600]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2018.11.29-10.14.43:277][600]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.29-10.14.54:560][186]LogMaterial: Display: Missing cached shader map for material AK47_Mat, compiling. 
+[2018.11.29-10.14.54:575][186]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.11.29-10.14.54:589][186]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.29-10.14.54:589][186]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.29-10.14.54:589][186]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.11.29-10.14.54:589][186]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.11.29-10.14.54:589][186]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.11.29-10.14.54:589][186]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.11.29-10.14.54:589][186]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.29-10.14.54:589][186]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.29-10.14.54:764][194]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.29-10.14.54:764][194]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.29-10.14.54:788][196]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.11.29-10.14.54:788][196]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.29-10.14.54:788][196]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.29-10.14.54:788][196]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.29-10.14.54:805][197]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.11.29-10.14.54:805][197]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.11.29-10.14.54:884][201]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.11.29-10.14.54:968][202]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.11.29-10.14.55:001][203]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.29-10.14.55:093][205]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.29-10.14.55:123][208]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.11.29-10.14.55:139][209]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.29-10.14.55:151][210]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.29-10.14.55:401][225]MaterialEditorStats: Base pass shader: 108 instructions
+[2018.11.29-10.14.55:401][225]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2018.11.29-10.14.55:401][225]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2018.11.29-10.14.55:401][225]MaterialEditorStats: Texture samplers: 5/16
+[2018.11.29-10.14.55:401][225]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2018.11.29-10.14.55:401][225]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.29-10.15.08:649][837]LogMaterial: Display: Missing cached shader map for material AK47_Mat, compiling. 
+[2018.11.29-10.15.08:660][837]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.11.29-10.15.08:692][838]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.11.29-10.15.08:692][838]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.29-10.15.08:692][838]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.29-10.15.08:692][838]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.29-10.15.08:692][838]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.11.29-10.15.08:692][838]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.11.29-10.15.08:692][838]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.11.29-10.15.08:692][838]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.11.29-10.15.08:844][845]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.29-10.15.08:857][846]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.29-10.15.08:858][846]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.11.29-10.15.08:867][847]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.29-10.15.08:871][847]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.29-10.15.08:871][847]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.29-10.15.08:871][847]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.11.29-10.15.08:871][847]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.11.29-10.15.08:978][853]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.11.29-10.15.09:066][857]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.11.29-10.15.09:105][859]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.29-10.15.09:178][862]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.29-10.15.09:215][864]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.11.29-10.15.09:233][865]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.29-10.15.09:233][865]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.29-10.15.09:480][876]MaterialEditorStats: Base pass shader: 108 instructions
+[2018.11.29-10.15.09:480][876]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2018.11.29-10.15.09:480][876]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2018.11.29-10.15.09:480][876]MaterialEditorStats: Texture samplers: 5/16
+[2018.11.29-10.15.09:480][876]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2018.11.29-10.15.09:480][876]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.29-10.15.12:340][  2]LogMaterial: Display: Missing cached shader map for material AK47_Mat, compiling. 
+[2018.11.29-10.15.12:356][  2]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.29-10.15.12:356][  2]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.29-10.15.12:356][  2]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.11.29-10.15.12:356][  2]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.11.29-10.15.12:356][  2]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.11.29-10.15.12:356][  2]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.11.29-10.15.12:356][  2]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.29-10.15.12:356][  2]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.29-10.15.12:356][  2]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.11.29-10.15.12:537][  9]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.29-10.15.12:543][  9]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.29-10.15.12:543][  9]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.11.29-10.15.12:553][  9]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.29-10.15.12:564][ 10]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.29-10.15.12:564][ 10]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.29-10.15.12:564][ 10]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.11.29-10.15.12:564][ 10]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.11.29-10.15.12:663][ 16]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.11.29-10.15.12:771][ 21]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.11.29-10.15.12:771][ 21]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.29-10.15.12:899][ 27]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.29-10.15.12:914][ 28]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.11.29-10.15.12:914][ 28]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.29-10.15.12:935][ 29]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.29-10.15.13:196][ 41]MaterialEditorStats: Base pass shader: 114 instructions
+[2018.11.29-10.15.13:196][ 41]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 188 instructions
+[2018.11.29-10.15.13:196][ 41]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2018.11.29-10.15.13:196][ 41]MaterialEditorStats: Texture samplers: 6/16
+[2018.11.29-10.15.13:197][ 41]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2018.11.29-10.15.13:197][ 41]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.29-10.15.30:510][ 32]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.29-10.15.53:963][895]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.15.55:751][899]LogSlate: Window 'Warning: No Preview Mesh Found' being destroyed
+[2018.11.29-10.15.59:174][ 96]LogMaterial: Warning: Material /Engine/Transient.AK47_Mat needed to have new flag set bUsedWithSkeletalMesh !
+[2018.11.29-10.15.59:197][ 96]LogMaterial: Display: Missing cached shader map for material AK47_Mat, compiling. 
+[2018.11.29-10.15.59:219][ 96]LogMaterial: Display: Missing cached shader map for material AK47_Mat, compiling. 
+[2018.11.29-10.15.59:251][ 98]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.11.29-10.15.59:251][ 98]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.11.29-10.15.59:251][ 98]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.11.29-10.15.59:251][ 98]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.11.29-10.15.59:251][ 98]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.11.29-10.15.59:251][ 98]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.11.29-10.15.59:251][ 98]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.11.29-10.15.59:252][ 98]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.11.29-10.15.59:841][125]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.11.29-10.15.59:868][127]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.11.29-10.15.59:878][128]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.11.29-10.15.59:878][128]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.11.29-10.15.59:878][128]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.11.29-10.15.59:897][129]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.11.29-10.15.59:897][129]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.11.29-10.15.59:912][130]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.29-10.15.59:979][135]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.11.29-10.16.00:095][143]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.11.29-10.16.00:163][148]LogShaderCompilers: Display: Shaders left to compile 41
+[2018.11.29-10.16.00:248][154]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.29-10.16.00:289][157]LogShaderCompilers: Display: Shaders left to compile 39
+[2018.11.29-10.16.00:301][158]LogShaderCompilers: Display: Shaders left to compile 38
+[2018.11.29-10.16.00:318][159]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.11.29-10.16.00:334][160]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.11.29-10.16.00:344][161]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.11.29-10.16.00:403][165]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.11.29-10.16.00:487][171]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.11.29-10.16.00:513][173]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.11.29-10.16.00:513][173]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.11.29-10.16.00:524][174]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.29-10.16.00:539][175]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.11.29-10.16.00:553][176]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.11.29-10.16.00:581][178]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.11.29-10.16.00:595][179]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.11.29-10.16.00:650][182]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.11.29-10.16.00:662][182]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.11.29-10.16.00:758][190]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.11.29-10.16.00:836][196]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.11.29-10.16.00:879][199]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.11.29-10.16.00:892][200]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.29-10.16.00:905][201]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.11.29-10.16.00:950][204]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.11.29-10.16.00:987][207]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.11.29-10.16.01:016][209]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.11.29-10.16.01:058][212]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.29-10.16.01:115][216]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.29-10.16.01:129][217]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.11.29-10.16.01:144][218]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.11.29-10.16.01:156][219]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.11.29-10.16.01:184][221]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.29-10.16.01:188][221]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.11.29-10.16.01:214][223]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.11.29-10.16.01:226][224]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.11.29-10.16.01:267][227]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.11.29-10.16.01:271][227]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.29-10.16.01:409][237]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.29-10.16.01:452][240]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.11.29-10.16.01:482][242]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.11.29-10.16.01:522][245]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.11.29-10.16.01:764][262]MaterialEditorStats: Base pass shader: 114 instructions
+[2018.11.29-10.16.01:764][262]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 188 instructions
+[2018.11.29-10.16.01:764][262]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2018.11.29-10.16.01:764][262]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2018.11.29-10.16.01:764][262]MaterialEditorStats: Texture samplers: 6/16
+[2018.11.29-10.16.01:764][262]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2018.11.29-10.16.01:764][262]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.11.29-10.16.20:499][593]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.29-10.16.36:369][465]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.16.47:111][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.16.54:376][487]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.16.54:593][487]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK.AK
+[2018.11.29-10.16.54:600][487]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.29-10.16.54:625][487]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.29-10.17.35:225][254]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.29-10.17.39:773][398]LogSkeletalMesh: Building Skeletal Mesh AK...
+[2018.11.29-10.17.39:780][398]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK.AK
+[2018.11.29-10.17.39:781][398]LogMaterial: Warning: Material /Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK47_Mat.AK47_Mat needed to have new flag set bUsedWithSkeletalMesh !
+[2018.11.29-10.17.39:783][398]LogMaterial: Display: Missing cached shader map for material AK47_Mat, compiling. 
+[2018.11.29-10.17.39:826][399]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.11.29-10.17.39:826][399]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.11.29-10.17.39:826][399]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.29-10.17.39:826][399]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.29-10.17.39:826][399]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.29-10.17.39:826][399]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.29-10.17.55:742][442]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.17.58:033][579]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.29-10.17.59:723][682]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.17.59:807][686]LogMaterialEditor: Saving and Compiling material AK47_Mat
+[2018.11.29-10.18.00:231][686]LogMaterial: Display: Missing cached shader map for material AK47_Mat, compiling. 
+[2018.11.29-10.18.00:289][686]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.11.29-10.18.00:289][686]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.11.29-10.18.00:289][686]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.11.29-10.18.00:289][686]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.11.29-10.18.00:289][686]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.11.29-10.18.00:289][686]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.11.29-10.18.00:289][686]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.11.29-10.18.00:289][686]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.11.29-10.18.00:298][686]LogMaterial: Display: Missing cached shader map for material AK47_Mat, compiling. 
+[2018.11.29-10.18.00:326][686]LogMaterial: Display: Missing cached shader map for material AK47_Mat, compiling. 
+[2018.11.29-10.18.00:390][686]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy AK47_Mat, compiling. 
+[2018.11.29-10.18.02:149][686]LogShaderCompilers: Display: Shaders left to compile 112
+[2018.11.29-10.18.02:149][686]LogShaderCompilers: Display: Shaders left to compile 111
+[2018.11.29-10.18.02:149][686]LogShaderCompilers: Display: Shaders left to compile 110
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 109
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 108
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 107
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 106
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 105
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 104
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 103
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 102
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 101
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 100
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 99
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 98
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 97
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 96
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 95
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 94
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 93
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 92
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 91
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 89
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 88
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 87
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 86
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 85
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 84
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 83
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 82
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 81
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 79
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 78
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 77
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 76
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 75
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 74
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 73
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 72
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 71
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 69
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 68
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 67
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 66
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 65
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 64
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 63
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 61
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.11.29-10.18.02:150][686]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.11.29-10.18.02:151][686]TextureStreamingBuild: Display: Compiling optional shaders took 1.766 seconds.
+[2018.11.29-10.18.04:244][686]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/AK47_Mat50C26A19481E4A04B8A277AF355E9850.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/ThirdPersonBP/Blueprints/Weapons/AK47/AK47_Mat.uasset'
+[2018.11.29-10.19.01:504][608]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.19.25:095][ 94]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.11.29-10.19.28:204][304]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.021
+[2018.11.29-10.19.28:206][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK] ([1] browsable assets)...
+[2018.11.29-10.19.28:215][304]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK.AK]
+[2018.11.29-10.19.28:215][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK]
+[2018.11.29-10.19.28:234][304]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/AK_Auto469E31BB8431191B0D330BC84D954C5D1.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_Auto4.uasset'
+[2018.11.29-10.19.28:235][304]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_Skeleton] ([1] browsable assets)...
+[2018.11.29-10.19.28:235][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_Skeleton]
+[2018.11.29-10.19.28:240][304]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/AK_Skeleton_Auto41F771BC34BAAFA4CE4DB1CBC0B80DD2C.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_Skeleton_Auto4.uasset'
+[2018.11.29-10.19.28:242][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_PhysicsAsset] ([1] browsable assets)...
+[2018.11.29-10.19.28:249][304]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_PhysicsAsset.AK_PhysicsAsset]
+[2018.11.29-10.19.28:249][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_PhysicsAsset]
+[2018.11.29-10.19.28:261][304]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/AK_PhysicsAsset_Auto4F2627D084C218CFFD04732986FD386C4.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_PhysicsAsset_Auto4.uasset'
+[2018.11.29-10.19.28:277][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_diffuse] ([1] browsable assets)...
+[2018.11.29-10.19.28:283][304]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_diffuse.AK_diffuse]
+[2018.11.29-10.19.28:283][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_diffuse]
+[2018.11.29-10.19.28:297][304]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/AK_diffuse_Auto48F80B312405B2F8FFAD82BA27563CB4F.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_diffuse_Auto4.uasset'
+[2018.11.29-10.19.28:298][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_normal] ([1] browsable assets)...
+[2018.11.29-10.19.28:304][304]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_normal.AK_normal]
+[2018.11.29-10.19.28:304][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_normal]
+[2018.11.29-10.19.28:366][304]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/AK_normal_Auto433D0AE7F4B6D77093FC3F5A6615590B3.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_normal_Auto4.uasset'
+[2018.11.29-10.19.28:368][304]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_specular] ([1] browsable assets)...
+[2018.11.29-10.19.28:373][304]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_specular.AK_specular]
+[2018.11.29-10.19.28:373][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_specular]
+[2018.11.29-10.19.28:385][304]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/AK_specular_Auto433AE33A844DFD3379915ACBAAAF621B4.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Weapons/AK47/AK_specular_Auto4.uasset'
+[2018.11.29-10.19.28:386][304]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Weapons/AK47/NewBlueprint] ([1] browsable assets)...
+[2018.11.29-10.19.28:386][304]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Weapons/AK47/NewBlueprint]
+[2018.11.29-10.19.28:395][304]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/NewBlueprint_Auto4386495B74AD0334E535765A548C24FCA.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Weapons/AK47/NewBlueprint_Auto4.uasset'
+[2018.11.29-10.19.28:396][304]LogFileHelpers: Auto-saving content packages took 0.190
+[2018.11.29-10.19.36:010][758]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Weapons/AK47/Weapon_Base.Weapon_Base:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Weapons/AK47/NewBlueprint.PackageMetaData'
+[2018.11.29-10.19.36:010][758]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Weapons/AK47/Weapon_Base.SKEL_Weapon_Base_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Weapons/AK47/NewBlueprint.PackageMetaData'
+[2018.11.29-10.19.36:010][758]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Weapons/AK47/Weapon_Base.Weapon_Base_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Weapons/AK47/NewBlueprint.PackageMetaData'
+[2018.11.29-10.19.36:010][758]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Weapons/AK47/Weapon_Base.Weapon_Base:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Weapons/AK47/NewBlueprint.PackageMetaData'
+[2018.11.29-10.19.36:010][758]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Weapons/AK47/Weapon_Base.Weapon_Base:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Weapons/AK47/NewBlueprint.PackageMetaData'
+[2018.11.29-10.19.36:010][758]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/Weapons/AK47/Weapon_Base.Weapon_Base:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Weapons/AK47/NewBlueprint.PackageMetaData'
+[2018.11.29-10.19.36:042][758]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Weapon_BaseFEC6F1334AF27883D6D98C99A0C8A42E.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/ThirdPersonBP/Blueprints/Weapons/AK47/Weapon_Base.uasset'
+[2018.11.29-10.20.27:079][122]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/Weapons/AK47/Weapon_Base.Weapon_Base
+[2018.11.29-10.20.44:613][932]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.20.44:698][936]BlueprintLog: New page: Compile Weapon_Base
+[2018.11.29-10.20.48:651][166]LogSlate: Window 'Weapon_Base*' being destroyed
+[2018.11.29-10.20.48:666][166]LogSlate: Window 'Weapon_Base*' being destroyed
+[2018.11.29-10.21.09:040][843]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Assets/Character/Swat.Swat
+[2018.11.29-10.21.09:125][843]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.29-10.21.09:163][843]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.29-10.21.31:022][293]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/Assets/Character/Swat_Skeleton.Swat_Skeleton
+[2018.11.29-10.21.31:119][293]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.29-10.21.31:159][293]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.29-10.22.37:595][890]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.29-10.23.09:300][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.23.32:954][851]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.23.51:204][120]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.24.57:273][789]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.25.30:296][949]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.26.17:909][302]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.26.39:656][832]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.27.37:521][ 45]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.28.03:531][293]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.28.21:285][548]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.28.40:104][842]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.28.55:437][874]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.28.55:604][876]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Swat_Skeleton015ED3584E0805645224BB98D18B8BD4.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/Assets/Character/Swat_Skeleton.uasset'
+[2018.11.29-10.29.16:932][369]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.29.17:003][374]LogSlate: Window 'Swat_Skeleton' being destroyed
+[2018.11.29-10.29.17:019][374]LogSlate: Window 'Swat_Skeleton' being destroyed
+[2018.11.29-10.29.42:877][116]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.29.44:421][204]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.11.29-10.33.04:574][316]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Assets/Character/Swat.Swat
+[2018.11.29-10.33.04:681][316]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.29-10.33.04:708][316]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_30:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.29-10.33.09:602][553]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/Assets/Character/Swat_Skeleton.Swat_Skeleton
+[2018.11.29-10.33.09:696][553]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.11.29-10.33.09:720][553]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_31:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.11.29-10.33.17:094][ 50]LogSlate: Window 'Swat_Skeleton' being destroyed
+[2018.11.29-10.33.17:109][ 50]LogSlate: Window 'Swat_Skeleton' being destroyed
+[2018.11.29-10.33.18:519][102]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-10.33.18:532][102]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.33.18:532][102]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.11.29-10.33.18:548][102]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2018.11.29-10.33.18:559][102]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  SpawnActor  must have a  Class  specified.
+[2018.11.29-10.33.18:564][102]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [4307.81] Compile of ThirdPersonCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 20 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.11.29-10.33.18:675][102]LogPlayLevel: PlayLevel: Blueprint regeneration took 142 ms (1 blueprints)
+[2018.11.29-10.33.18:675][102]BlueprintLog: Blueprint ThirdPersonCharacter failed to compile
+[2018.11.29-10.33.23:140][102]LogSlate: Window 'Message' being destroyed
+[2018.11.29-10.33.34:307][248]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2018.11.29-10.34.09:369][208]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.11.29-10.34.09:396][208]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Spawn node  SpawnActor  must have a  Class  specified.
+[2018.11.29-10.34.09:535][208]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [4358.79] Compile of ThirdPersonCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 165 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.11.29-10.35.42:602][813]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.11.29-10.35.57:833][562]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.11.29-10.36.01:820][759]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-10.36.01:842][759]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.36.01:842][759]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.29-10.36.01:842][759]PIE: New page: PIE session: ThirdPersonExampleMap (29 Nov 2018 10:36:01)
+[2018.11.29-10.36.01:842][759]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.11.29-10.36.01:851][759]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008219s)
+[2018.11.29-10.36.01:851][759]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.29-10.36.01:851][759]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2018.11.29-10.36.01:851][759]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.009182s)
+[2018.11.29-10.36.01:887][759]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.29-10.36.01:894][759]LogInit: FAudioDevice initialized.
+[2018.11.29-10.36.01:921][759]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.29-10.36.01:923][759]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.29-10.36.01
+[2018.11.29-10.36.01:923][759]LogWorld: Bringing up level for play took: 0.001075
+[2018.11.29-10.36.01:936][759]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.808
+[2018.11.29-10.36.01:936][759]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.36.05:166][138]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.36.05:166][138]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.36.05:202][138]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.29-10.36.05:202][138]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.36.05:227][138]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.36.05:271][142]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2018.11.29-10.36.06:962][335]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.36.24:792][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.36.24:855][412]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.11.29-10.36.26:530][525]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-10.36.26:544][525]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.36.26:545][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.29-10.36.26:545][525]PIE: New page: PIE session: ThirdPersonExampleMap (29 Nov 2018 10:36:26)
+[2018.11.29-10.36.26:545][525]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.11.29-10.36.26:552][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007742s)
+[2018.11.29-10.36.26:553][525]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.29-10.36.26:553][525]LogPlayLevel: PIE: World Init took: (0.000530s)
+[2018.11.29-10.36.26:553][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.008384s)
+[2018.11.29-10.36.26:588][525]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.29-10.36.26:597][525]LogInit: FAudioDevice initialized.
+[2018.11.29-10.36.26:625][525]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.29-10.36.26:627][525]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.29-10.36.26
+[2018.11.29-10.36.26:627][525]LogWorld: Bringing up level for play took: 0.001073
+[2018.11.29-10.36.26:640][525]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.488
+[2018.11.29-10.36.26:640][525]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.36.32:269][146]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.36.32:269][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.36.32:303][146]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.29-10.36.32:303][146]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.36.32:355][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.36.32:375][147]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2018.11.29-10.36.34:060][292]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.36.38:397][568]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.36.38:502][573]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-10.36.38:514][573]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.36.38:514][573]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.11.29-10.36.38:528][573]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2018.11.29-10.36.38:669][573]LogPlayLevel: PlayLevel: Blueprint regeneration took 155 ms (1 blueprints)
+[2018.11.29-10.36.38:670][573]PIE: New page: PIE session: ThirdPersonExampleMap (29 Nov 2018 10:36:38)
+[2018.11.29-10.36.38:670][573]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.11.29-10.36.38:678][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007892s)
+[2018.11.29-10.36.38:678][573]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.29-10.36.38:678][573]LogPlayLevel: PIE: World Init took: (0.000526s)
+[2018.11.29-10.36.38:678][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.008521s)
+[2018.11.29-10.36.38:713][573]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.29-10.36.38:720][573]LogInit: FAudioDevice initialized.
+[2018.11.29-10.36.38:750][573]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.29-10.36.38:752][573]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.29-10.36.38
+[2018.11.29-10.36.38:752][573]LogWorld: Bringing up level for play took: 0.001161
+[2018.11.29-10.36.38:765][573]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.363
+[2018.11.29-10.36.38:765][573]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.36.42:852][909]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.36.42:852][909]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.36.42:881][909]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.29-10.36.42:881][909]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.36.42:905][909]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.36.42:958][914]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2018.11.29-10.36.44:467][ 77]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.36.50:707][488]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.36.57:064][777]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.11.29-10.36.59:707][934]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-10.36.59:724][934]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.36.59:724][934]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.29-10.36.59:724][934]PIE: New page: PIE session: ThirdPersonExampleMap (29 Nov 2018 10:36:59)
+[2018.11.29-10.36.59:724][934]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.11.29-10.36.59:732][934]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007715s)
+[2018.11.29-10.36.59:732][934]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.29-10.36.59:732][934]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2018.11.29-10.36.59:732][934]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.008361s)
+[2018.11.29-10.36.59:769][934]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.29-10.36.59:776][934]LogInit: FAudioDevice initialized.
+[2018.11.29-10.36.59:808][934]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.29-10.36.59:812][934]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.29-10.36.59
+[2018.11.29-10.36.59:813][934]LogWorld: Bringing up level for play took: 0.002689
+[2018.11.29-10.36.59:826][934]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.699
+[2018.11.29-10.36.59:826][934]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.37.03:559][328]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.37.03:559][328]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.37.03:595][328]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.29-10.37.03:595][328]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.37.03:617][328]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.37.03:663][332]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2018.11.29-10.37.06:532][616]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.37.08:532][748]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.29-10.37.13:007][ 53]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.37.37:887][326]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.11.29-10.37.38:859][356]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-10.37.38:875][356]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.37.38:875][356]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.29-10.37.38:875][356]PIE: New page: PIE session: ThirdPersonExampleMap (29 Nov 2018 10:37:38)
+[2018.11.29-10.37.38:875][356]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.11.29-10.37.38:883][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008219s)
+[2018.11.29-10.37.38:884][356]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.29-10.37.38:884][356]LogPlayLevel: PIE: World Init took: (0.000504s)
+[2018.11.29-10.37.38:884][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.008822s)
+[2018.11.29-10.37.38:922][356]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.29-10.37.38:928][356]LogInit: FAudioDevice initialized.
+[2018.11.29-10.37.38:959][356]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.29-10.37.38:961][356]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.29-10.37.38
+[2018.11.29-10.37.38:961][356]LogWorld: Bringing up level for play took: 0.001296
+[2018.11.29-10.37.38:974][356]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.154
+[2018.11.29-10.37.38:974][356]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.37.54:838][188]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.37.54:839][188]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.37.54:874][188]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.29-10.37.54:874][188]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.37.54:895][188]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.37.54:943][191]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2018.11.29-10.37.57:894][519]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.38.10:613][386]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.38.17:682][710]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.11.29-10.38.19:646][821]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-10.38.19:663][821]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.38.19:663][821]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.29-10.38.19:663][821]PIE: New page: PIE session: ThirdPersonExampleMap (29 Nov 2018 10:38:19)
+[2018.11.29-10.38.19:663][821]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.11.29-10.38.19:672][821]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008520s)
+[2018.11.29-10.38.19:673][821]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.29-10.38.19:673][821]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2018.11.29-10.38.19:673][821]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.009655s)
+[2018.11.29-10.38.19:708][821]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.29-10.38.19:715][821]LogInit: FAudioDevice initialized.
+[2018.11.29-10.38.19:745][821]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.29-10.38.19:746][821]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.29-10.38.19
+[2018.11.29-10.38.19:746][821]LogWorld: Bringing up level for play took: 0.001121
+[2018.11.29-10.38.19:759][821]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.631
+[2018.11.29-10.38.19:759][821]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.38.24:634][352]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.38.24:635][352]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.38.24:671][352]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.29-10.38.24:671][352]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.38.24:696][352]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.38.24:734][355]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2018.11.29-10.38.56:720][214]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/ThirdPersonExampleMap_Auto5CE94ADA14CD64C2C5107E89E21A4DD78.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2018.11.29-10.38.56:723][214]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.157
+[2018.11.29-10.38.56:723][214]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.157
+[2018.11.29-10.38.56:725][214]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.11.29-10.38.56:733][214]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.11.29-10.38.56:733][214]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2018.11.29-10.38.56:799][214]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/ThirdPersonCharacter_Auto5000EC784458DDD596539378D8A37D00D.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto5.uasset'
+[2018.11.29-10.38.56:800][214]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Weapons/AK47/Weapon_Base] ([1] browsable assets)...
+[2018.11.29-10.38.56:808][214]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/Weapons/AK47/Weapon_Base.Weapon_Base]
+[2018.11.29-10.38.56:808][214]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Weapons/AK47/Weapon_Base]
+[2018.11.29-10.38.56:830][214]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Weapon_Base_Auto59D2AD7CD4CC8EB1FFBCB6EBBC526AA31.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Weapons/AK47/Weapon_Base_Auto5.uasset'
+[2018.11.29-10.38.56:831][214]LogFileHelpers: Auto-saving content packages took 0.108
+[2018.11.29-10.39.17:470][277]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.39.17:684][277]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-10.39.17:698][277]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.39.17:698][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.29-10.39.17:699][277]PIE: New page: PIE session: ThirdPersonExampleMap (29 Nov 2018 10:39:17)
+[2018.11.29-10.39.17:699][277]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.11.29-10.39.17:706][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007568s)
+[2018.11.29-10.39.17:707][277]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.29-10.39.17:707][277]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2018.11.29-10.39.17:707][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.008302s)
+[2018.11.29-10.39.17:743][277]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.29-10.39.17:750][277]LogInit: FAudioDevice initialized.
+[2018.11.29-10.39.17:778][277]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.29-10.39.17:780][277]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.29-10.39.17
+[2018.11.29-10.39.17:780][277]LogWorld: Bringing up level for play took: 0.001099
+[2018.11.29-10.39.17:793][277]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.665
+[2018.11.29-10.39.17:793][277]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.39.31:963][921]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.39.31:963][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.39.31:994][921]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.29-10.39.31:994][921]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.39.32:018][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.39.32:063][925]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2018.11.29-10.39.33:581][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.39.43:783][769]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.39.49:082][ 50]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.39.52:739][265]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.11.29-10.39.54:611][367]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-10.39.54:627][367]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.39.54:628][367]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.29-10.39.54:628][367]PIE: New page: PIE session: ThirdPersonExampleMap (29 Nov 2018 10:39:54)
+[2018.11.29-10.39.54:628][367]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.11.29-10.39.54:636][367]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008090s)
+[2018.11.29-10.39.54:637][367]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.29-10.39.54:637][367]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2018.11.29-10.39.54:637][367]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.009025s)
+[2018.11.29-10.39.54:673][367]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.29-10.39.54:680][367]LogInit: FAudioDevice initialized.
+[2018.11.29-10.39.54:713][367]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.29-10.39.54:715][367]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.29-10.39.54
+[2018.11.29-10.39.54:715][367]LogWorld: Bringing up level for play took: 0.001168
+[2018.11.29-10.39.54:728][367]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.4
+[2018.11.29-10.39.54:728][367]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.40.12:882][484]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.40.12:882][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.40.12:917][484]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.29-10.40.12:917][484]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.40.12:941][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.40.12:987][488]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2018.11.29-10.40.14:097][566]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.41.17:372][434]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-10.41.17:383][434]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.41.17:383][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.29-10.41.17:383][434]PIE: New page: PIE session: ThirdPersonExampleMap (29 Nov 2018 10:41:17)
+[2018.11.29-10.41.17:383][434]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.11.29-10.41.17:392][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008691s)
+[2018.11.29-10.41.17:393][434]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.29-10.41.17:393][434]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2018.11.29-10.41.17:393][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.009487s)
+[2018.11.29-10.41.17:430][434]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.29-10.41.17:437][434]LogInit: FAudioDevice initialized.
+[2018.11.29-10.41.17:471][434]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.29-10.41.17:473][434]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.29-10.41.17
+[2018.11.29-10.41.17:473][434]LogWorld: Bringing up level for play took: 0.001137
+[2018.11.29-10.41.17:486][434]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.358
+[2018.11.29-10.41.17:486][434]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.41.30:184][904]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.41.30:184][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.41.30:217][904]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.29-10.41.30:217][904]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.41.30:244][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.41.30:287][908]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2018.11.29-10.41.31:521][ 32]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.41.41:054][688]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.42.06:076][ 66]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.42.06:160][ 70]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.11.29-10.42.12:373][329]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-10.42.12:393][329]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.42.12:393][329]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.29-10.42.12:393][329]PIE: New page: PIE session: ThirdPersonExampleMap (29 Nov 2018 10:42:12)
+[2018.11.29-10.42.12:393][329]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.11.29-10.42.12:400][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007445s)
+[2018.11.29-10.42.12:401][329]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.29-10.42.12:401][329]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2018.11.29-10.42.12:401][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.008441s)
+[2018.11.29-10.42.12:442][329]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.29-10.42.12:449][329]LogInit: FAudioDevice initialized.
+[2018.11.29-10.42.12:481][329]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.29-10.42.12:483][329]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.29-10.42.12
+[2018.11.29-10.42.12:483][329]LogWorld: Bringing up level for play took: 0.001064
+[2018.11.29-10.42.12:497][329]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.631
+[2018.11.29-10.42.12:497][329]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.42.46:572][360]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.42.46:572][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.42.46:606][360]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.29-10.42.46:606][360]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.42.46:631][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.42.46:676][364]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2018.11.29-10.42.48:931][516]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.42.58:886][170]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.29-10.43.02:219][309]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.11.29-10.43.04:608][439]LogTemp: Repeating last play command: Selected Viewport
+[2018.11.29-10.43.04:626][439]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.43.04:626][439]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.11.29-10.43.04:626][439]PIE: New page: PIE session: ThirdPersonExampleMap (29 Nov 2018 10:43:04)
+[2018.11.29-10.43.04:626][439]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.11.29-10.43.04:634][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008288s)
+[2018.11.29-10.43.04:635][439]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.11.29-10.43.04:635][439]LogPlayLevel: PIE: World Init took: (0.000813s)
+[2018.11.29-10.43.04:635][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.009234s)
+[2018.11.29-10.43.04:670][439]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.11.29-10.43.04:677][439]LogInit: FAudioDevice initialized.
+[2018.11.29-10.43.04:706][439]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.11.29-10.43.04:708][439]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.11.29-10.43.04
+[2018.11.29-10.43.04:708][439]LogWorld: Bringing up level for play took: 0.001052
+[2018.11.29-10.43.04:721][439]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.407
+[2018.11.29-10.43.04:721][439]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.43.13:179][400]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.43.13:179][400]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.43.13:214][400]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.11.29-10.43.13:214][400]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.11.29-10.43.13:238][400]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.29-10.43.13:282][404]LogPlayLevel: Display: Destroying online subsystem :Context_58
