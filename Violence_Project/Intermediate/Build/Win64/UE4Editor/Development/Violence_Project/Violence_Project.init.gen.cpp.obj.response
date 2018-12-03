@@ -23,6 +23,7 @@
 /wd4838
 /we4668
 /I .
+/I C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Source\Violence_Project\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -402,6 +403,7 @@
 /I ThirdParty\libSampleRate
 /I C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Inc\Violence_Project
 /I C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Source
+/I C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Source\Violence_Project\Public
 /I C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Source\Violence_Project
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
@@ -409,8 +411,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
+/FI"C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\Violence_ProjectEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\Violence_ProjectEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\Violence_ProjectEditor\Development\Engine\SharedPCH.Engine.h.pch"
 "C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Inc\Violence_Project\Violence_Project.init.gen.cpp"
-/FI"C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\Definitions.h"
+/FI"C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\Definitions.Violence_Project.h"
 /Fo"C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\Violence_Project.init.gen.cpp.obj"
 /TP
 /GR-
