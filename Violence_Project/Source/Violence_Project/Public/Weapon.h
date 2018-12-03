@@ -16,8 +16,6 @@ public:
 	// Sets default values for this actor's properties
 	AWeapon();
 	USkeletalMeshComponent* WeaponMesh;
-	FVector getMuzzleLocation(USkeletalMeshComponent* SkeleMesh);
-	FVector getMuzzleRotation(USkeletalMeshComponent* SkeleMesh);
 
 protected:
 	// Called when the game starts or when spawned

@@ -28,13 +28,3 @@ void AWeapon::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
-
-FVector getMuzzleLocation(USkeletalMeshComponent* SkeleMesh)
-{
-	return SkeleMesh->GetSocketLocation("Muzzle");
-}
-
-FVector getMuzzleRotation(USkeletalMeshComponent* SkeleMesh)
-{
-	return SkeleMesh->GetSocketRotation("Muzzle").Vector();
-}
