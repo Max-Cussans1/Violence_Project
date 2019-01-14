@@ -13,8 +13,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define VIOLENCE_PROJECT_PlayerCharacter_generated_h
 
-#define Violence_Project_Source_Violence_Project_Public_PlayerCharacter_h_17_RPC_WRAPPERS
-#define Violence_Project_Source_Violence_Project_Public_PlayerCharacter_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define Violence_Project_Source_Violence_Project_Public_PlayerCharacter_h_17_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execShoot) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Shoot(); \
+		P_NATIVE_END; \
+	}
+
+
+#define Violence_Project_Source_Violence_Project_Public_PlayerCharacter_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execShoot) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Shoot(); \
+		P_NATIVE_END; \
+	}
+
+
 #define Violence_Project_Source_Violence_Project_Public_PlayerCharacter_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPlayerCharacter(); \

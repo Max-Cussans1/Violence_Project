@@ -16,6 +16,14 @@ public:
 	// Sets default values for this actor's properties
 	AWeapon();
 	USkeletalMeshComponent* WeaponMesh;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon")
+	int maxClip = 30;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon")
+	int clip = 30;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon")
+	int ammo = 3 * clip;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon")
+	float fireRate = 0.1;
 
 protected:
 	// Called when the game starts or when spawned

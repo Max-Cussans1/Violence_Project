@@ -1,4 +1,4 @@
-﻿Log file open, 01/14/19 16:58:30
+﻿Log file open, 01/14/19 17:49:28
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Violence_Project
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.537060
+LogStats: Stats thread started at 0.398635
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.097s to configure plugins.
+LogStreaming: Display: Took  0.085s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -123,7 +123,7 @@ LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line:  -skipcompile
+LogInit: Command Line:  
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -147,229 +147,278 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.002s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.01.14-16.58.30:662][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.14-16.58.30:662][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.01.14-16.58.30:672][  0]LogHAL: Display: Platform has ~ 32 GB [34291802112 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.01.14-16.58.30:672][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.01.14-16.58.30:672][  0]LogInit: Going up to parent DeviceProfile []
-[2019.01.14-16.58.30:672][  0]LogInit: Computer: WINDOWS-SA1OMO4
-[2019.01.14-16.58.30:672][  0]LogInit: User: maxc
-[2019.01.14-16.58.30:672][  0]LogInit: CPU Page size=4096, Cores=6
-[2019.01.14-16.58.30:672][  0]LogInit: High frequency timer resolution =3.914067 MHz
-[2019.01.14-16.58.30:673][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2019.01.14-16.58.30:673][  0]LogMemory: Platform Memory Stats for Windows
-[2019.01.14-16.58.30:673][  0]LogMemory: Process Physical Memory: 102.41 MB used, 102.41 MB peak
-[2019.01.14-16.58.30:673][  0]LogMemory: Process Virtual Memory: 94.05 MB used, 94.05 MB peak
-[2019.01.14-16.58.30:673][  0]LogMemory: Physical Memory: 8807.39 MB used,  23895.82 MB free, 32703.21 MB total
-[2019.01.14-16.58.30:673][  0]LogMemory: Virtual Memory: 4665.47 MB used,  23895.82 MB free, 134217728.00 MB total
-[2019.01.14-16.58.30:759][  0]LogInit: Using OS detected language (en-US).
-[2019.01.14-16.58.30:759][  0]LogInit: Using OS detected locale (en-GB).
-[2019.01.14-16.58.30:760][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.01.14-16.58.31:024][  0]LogStreaming: Display: Took  0.265s to InitEngineTextLocalization.
-[2019.01.14-16.58.31:024][  0]LogInit: Setting process to per monitor DPI aware
-[2019.01.14-16.58.31:073][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.01.14-16.58.31:073][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.01.14-16.58.31:223][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.14-16.58.31:223][  0]LogD3D11RHI: D3D11 adapters:
-[2019.01.14-16.58.31:324][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
-[2019.01.14-16.58.31:324][  0]LogD3D11RHI:       11127/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.01.14-16.58.31:329][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.01.14-16.58.31:329][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.01.14-16.58.31:329][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.01.14-16.58.31:335][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.01.14-16.58.31:335][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
-[2019.01.14-16.58.31:335][  0]LogWindows: EnumDisplayDevices:
-[2019.01.14-16.58.31:336][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
-[2019.01.14-16.58.31:336][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
-[2019.01.14-16.58.31:336][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2019.01.14-16.58.31:336][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2019.01.14-16.58.31:336][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.01.14-16.58.31:337][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
-[2019.01.14-16.58.31:337][  0]LogD3D11RHI:   Driver Version: 416.81 (internal:25.21.14.1681, unified:416.81)
-[2019.01.14-16.58.31:337][  0]LogD3D11RHI:      Driver Date: 11-2-2018
-[2019.01.14-16.58.31:337][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
-[2019.01.14-16.58.31:372][  0]LogD3D11RHI: Async texture creation enabled
-[2019.01.14-16.58.31:397][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.01.14-16.58.31:488][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Intermediate/Shaders/WorkingDirectory/13408/).
-[2019.01.14-16.58.31:488][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/max-c/AppData/Local/Temp/UnrealShaderWorkingDir/7B2B5F6F419F32A9B69AF2BE5DC77C70/'.
-[2019.01.14-16.58.31:692][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.01.14-16.58.31:703][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.01.14-16.58.31:715][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.01.14-16.58.31:726][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.01.14-16.58.31:738][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.01.14-16.58.31:750][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.01.14-16.58.31:761][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.01.14-16.58.31:773][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.01.14-16.58.31:780][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.01.14-16.58.31:839][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.58.31:839][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.58.31:839][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.58.31:839][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.58.31:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.58.31:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.58.31:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.58.31:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.58.31:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.58.31:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.58.31:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.58.31:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.58.31:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.58.31:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.58.31:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.58.31:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.58.31:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.58.31:840][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.58.31:843][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.01.14-16.58.31:904][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.14-16.58.31:904][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.14-16.58.31:923][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.14-16.58.31:923][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.14-16.58.31:934][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.01.14-16.58.31:945][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.01.14-16.58.31:956][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.01.14-16.58.31:967][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.01.14-16.58.31:976][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.01.14-16.58.31:976][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.01.14-16.58.32:055][  0]LogXGEController: Cleaning working directory: C:/Users/max-c/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.01.14-16.58.32:055][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.01.14-16.58.32:055][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.01.14-16.58.32:056][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.01.14-16.58.32:637][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.01.14-16.58.32:677][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/max-c/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.01.14-16.58.32:678][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/max-c/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.01.14-16.58.32:678][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.01.14-16.58.32:678][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.01.14-16.58.32:678][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.01.14-16.58.32:678][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.01.14-16.58.32:688][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.01.14-16.58.32:701][  0]LogDerivedDataCache: Using Local data cache path C:/Users/max-c/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.01.14-16.58.32:701][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.01.14-16.58.32:701][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.01.14-16.58.32:715][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.01.14-16.58.32:716][  0]LogSlate: Using FreeType 2.6.0
-[2019.01.14-16.58.32:717][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.01.14-16.58.32:780][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
-[2019.01.14-16.58.33:008][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.14-16.58.33:118][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.01.14-16.58.33:124][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.01.14-16.58.33:124][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.01.14-16.58.33:124][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.01.14-16.58.33:124][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.01.14-16.58.33:148][  0]LogNetVersion: Violence_Project 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 168441638)
-[2019.01.14-16.58.33:524][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.075668 seconds
-[2019.01.14-16.58.33:528][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.01.14-16.58.33:528][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2019.01.14-16.58.33:528][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.01.14-16.58.34:250][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.01.14-16.58.34:264][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.01.14-16.58.34:419][  0]SourceControl: Source control is disabled
-[2019.01.14-16.58.34:419][  0]SourceControl: Source control is disabled
-[2019.01.14-16.58.34:422][  0]SourceControl: Source control is disabled
-[2019.01.14-16.58.34:424][  0]SourceControl: Source control is disabled
-[2019.01.14-16.58.34:620][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.01.14-16.58.34:716][  0]LogOcInput: OculusInput pre-init called
-[2019.01.14-16.58.34:771][  0]LogEngine: Initializing Engine...
-[2019.01.14-16.58.34:772][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.14-16.58.34:773][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.14-16.58.34:773][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.14-16.58.34:773][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.14-16.58.34:774][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.14-16.58.34:923][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.01.14-16.58.34:936][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.01.14-16.58.34:956][  0]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.01.14-16.58.34:971][  0]LogInit: FAudioDevice initialized.
-[2019.01.14-16.58.34:971][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.01.14-16.58.35:005][  0]LogDerivedDataCache: Saved boot cache 0.03s 71MB C:/Users/max-c/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.01.14-16.58.35:018][  0]LogInit: Texture streaming: Enabled
-[2019.01.14-16.58.35:037][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.01.14-16.58.35:037][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={3A97732A-436A-A950-5535-27A48911357D}
-[2019.01.14-16.58.35:046][  0]LogInit: Transaction tracking system initialized
-[2019.01.14-16.58.35:072][  0]BlueprintLog: New page: Editor Load
-[2019.01.14-16.58.35:161][  0]LocalizationService: Localization service is disabled
-[2019.01.14-16.58.35:402][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.01.14-16.58.35:402][  0]LogCook: Display: Mobile HDR setting 1
-[2019.01.14-16.58.35:402][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.01.14-16.58.35:402][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.14-16.58.35:402][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.14-16.58.35:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.14-16.58.35:403][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.14-16.58.35:531][  0]LogFileCache: Scanning file cache for directory 'C:/Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/' took 0.02s
-[2019.01.14-16.58.35:532][  0]SourceControl: Source control is disabled
-[2019.01.14-16.58.35:638][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.14-16.58.35:640][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.01.14-16.58.39:896][  0]LogSlate: Window 'Restore Packages' being destroyed
-[2019.01.14-16.58.39:896][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.14-16.58.39:899][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.14-16.58.41:017][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
-[2019.01.14-16.58.41:017][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.14-16.58.41:019][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.14-16.58.41:037][  0]Cmd: MAP LOAD FILE="../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.14-16.58.41:037][  0]LightingResults: New page: Lighting Build
-[2019.01.14-16.58.41:041][  0]MapCheck: New page: Map Check
-[2019.01.14-16.58.41:041][  0]LightingResults: New page: Lighting Build
-[2019.01.14-16.58.41:403][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2019.01.14-16.58.41:410][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.14-16.58.41:434][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.14-16.58.41:498][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.194ms to complete.
-[2019.01.14-16.58.41:498][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.460
-[2019.01.14-16.58.42:240][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.01.14-16.58.42:287][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ViolenceProject
-[2019.01.14-16.58.42:287][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2019.01.14-16.58.42:287][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
-[2019.01.14-16.58.42:287][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2019.01.14-16.58.42:287][  0]LogTemp: BranchPath = WINDOWS-SA1OMO4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = WINDOWS-SA1OMO4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
-[2019.01.14-16.58.42:288][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\max-c\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2019.01.14-16.58.42:288][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.14-16.58.42:293][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.14-16.58.42:298][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.14-16.58.42:304][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.14-16.58.42:310][  0]LogCollectionManager: Loaded 0 collections in 0.001512 seconds
-[2019.01.14-16.58.42:363][  0]LogFileCache: Scanning file cache for directory 'C:/Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Collections/' took 0.01s
-[2019.01.14-16.58.42:363][  0]LogFileCache: Scanning file cache for directory 'C:/Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/Developers/maxc/Collections/' took 0.01s
-[2019.01.14-16.58.42:363][  0]LogFileCache: Scanning file cache for directory 'C:/Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/Collections/' took 0.01s
-[2019.01.14-16.58.42:363][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.01.14-16.58.42:370][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2575 classes and 606 folders.
-[2019.01.14-16.58.42:376][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.01.14-16.58.42:415][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.01.14-16.58.42:422][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2019.01.14-16.58.42:432][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.01.14-16.58.42:436][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.01.14-16.58.42:473][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
-[2019.01.14-16.58.42:570][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.01.14-16.58.42:570][  0]LogLoad: (Engine Initialization) Total time: 13.97 seconds
-[2019.01.14-16.58.42:570][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.01.14-16.58.42:607][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.01.14-16.58.42:636][  1]LogAssetRegistry: Asset discovery search completed in 9.8798 seconds
-[2019.01.14-16.58.42:637][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.01.14-16.58.42:637][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000122 seconds (updated 0 objects)
-[2019.01.14-16.58.47:383][291]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.58.47:439][295]LogTemp: Repeating last play command: Selected Viewport
-[2019.01.14-16.58.47:452][295]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2019.01.14-16.58.47:452][295]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.01.14-16.58.47:466][295]PIE: New page: PIE session: ThirdPersonExampleMap (14 Jan 2019 16:58:47)
-[2019.01.14-16.58.47:466][295]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2019.01.14-16.58.47:488][295]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022150s)
-[2019.01.14-16.58.47:489][295]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2019.01.14-16.58.47:489][295]LogPlayLevel: PIE: World Init took: (0.000657s)
-[2019.01.14-16.58.47:489][295]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023197s)
-[2019.01.14-16.58.47:526][295]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.01.14-16.58.47:533][295]LogInit: FAudioDevice initialized.
-[2019.01.14-16.58.47:582][295]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.01.14-16.58.47:584][295]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.14-16.58.47
-[2019.01.14-16.58.47:585][295]LogWorld: Bringing up level for play took: 0.001256
-[2019.01.14-16.58.47:602][295]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
-[2019.01.14-16.58.47:603][295]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.524
-[2019.01.14-16.58.47:603][295]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2019.01.14-16.58.56:768][381]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2019.01.14-16.58.56:768][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.14-16.58.56:801][381]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.01.14-16.58.56:802][381]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2019.01.14-16.58.56:824][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.14-16.58.56:876][386]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2019.01.14-16.58.58:901][540]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.59.07:939][190]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.14-16.59.08:164][190]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/ThirdPersonExampleMap2BDD15C242408DF94742D2A24E9D7C63.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2019.01.14-16.59.08:294][190]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/ThirdPersonExampleMap_BuiltDataA401204F4AB303E017E751AB083A87FB.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.01.14-17.49.28:735][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.14-17.49.28:735][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.14-17.49.28:745][  0]LogHAL: Display: Platform has ~ 32 GB [34291802112 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.14-17.49.28:745][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.14-17.49.28:745][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.14-17.49.28:745][  0]LogInit: Computer: WINDOWS-SA1OMO4
+[2019.01.14-17.49.28:745][  0]LogInit: User: maxc
+[2019.01.14-17.49.28:745][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.01.14-17.49.28:745][  0]LogInit: High frequency timer resolution =3.914067 MHz
+[2019.01.14-17.49.28:746][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.01.14-17.49.28:746][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.14-17.49.28:746][  0]LogMemory: Process Physical Memory: 101.62 MB used, 101.62 MB peak
+[2019.01.14-17.49.28:746][  0]LogMemory: Process Virtual Memory: 94.21 MB used, 94.21 MB peak
+[2019.01.14-17.49.28:746][  0]LogMemory: Physical Memory: 8608.83 MB used,  24094.38 MB free, 32703.21 MB total
+[2019.01.14-17.49.28:746][  0]LogMemory: Virtual Memory: 4665.47 MB used,  24094.38 MB free, 134217728.00 MB total
+[2019.01.14-17.49.28:762][  0]LogInit: Using OS detected language (en-US).
+[2019.01.14-17.49.28:762][  0]LogInit: Using OS detected locale (en-GB).
+[2019.01.14-17.49.28:763][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.14-17.49.29:030][  0]LogStreaming: Display: Took  0.268s to InitEngineTextLocalization.
+[2019.01.14-17.49.29:030][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.14-17.49.29:059][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.14-17.49.29:059][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.14-17.49.29:211][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.14-17.49.29:211][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.14-17.49.29:259][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2019.01.14-17.49.29:259][  0]LogD3D11RHI:       11127/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.14-17.49.29:260][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.14-17.49.29:261][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.14-17.49.29:261][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.14-17.49.29:266][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.14-17.49.29:266][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.14-17.49.29:266][  0]LogWindows: EnumDisplayDevices:
+[2019.01.14-17.49.29:266][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2019.01.14-17.49.29:266][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2019.01.14-17.49.29:266][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.01.14-17.49.29:267][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.01.14-17.49.29:267][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.14-17.49.29:267][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2019.01.14-17.49.29:267][  0]LogD3D11RHI:   Driver Version: 416.81 (internal:25.21.14.1681, unified:416.81)
+[2019.01.14-17.49.29:267][  0]LogD3D11RHI:      Driver Date: 11-2-2018
+[2019.01.14-17.49.29:267][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2019.01.14-17.49.29:299][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.14-17.49.29:325][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.14-17.49.29:416][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Intermediate/Shaders/WorkingDirectory/19680/).
+[2019.01.14-17.49.29:416][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/max-c/AppData/Local/Temp/UnrealShaderWorkingDir/8891162E4099211E99440F804B0F14D6/'.
+[2019.01.14-17.49.29:618][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.14-17.49.29:628][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.14-17.49.29:639][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.14-17.49.29:649][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.14-17.49.29:660][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.14-17.49.29:670][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.14-17.49.29:680][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.14-17.49.29:691][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.14-17.49.29:696][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.14-17.49.29:756][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.14-17.49.29:756][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.14-17.49.29:756][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.14-17.49.29:756][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.14-17.49.29:756][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.14-17.49.29:756][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.14-17.49.29:756][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.14-17.49.29:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.14-17.49.29:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.14-17.49.29:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.14-17.49.29:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.14-17.49.29:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.14-17.49.29:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.14-17.49.29:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.14-17.49.29:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.14-17.49.29:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.14-17.49.29:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.14-17.49.29:757][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.14-17.49.29:758][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.14-17.49.29:811][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.14-17.49.29:811][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.14-17.49.29:830][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.14-17.49.29:830][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.14-17.49.29:839][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.14-17.49.29:849][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.14-17.49.29:858][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.14-17.49.29:868][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.14-17.49.29:875][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.14-17.49.29:875][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.14-17.49.29:921][  0]LogXGEController: Cleaning working directory: C:/Users/max-c/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.14-17.49.29:922][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.14-17.49.29:922][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.14-17.49.29:922][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.14-17.49.30:498][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.14-17.49.30:538][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/max-c/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.14-17.49.30:538][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/max-c/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.14-17.49.30:538][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.14-17.49.30:538][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.14-17.49.30:538][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.14-17.49.30:538][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.14-17.49.30:549][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.14-17.49.30:561][  0]LogDerivedDataCache: Using Local data cache path C:/Users/max-c/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.14-17.49.30:561][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.14-17.49.30:561][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.14-17.49.30:575][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.14-17.49.30:576][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.14-17.49.30:576][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.14-17.49.30:642][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2019.01.14-17.49.30:877][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.14-17.49.30:975][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.14-17.49.30:978][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.14-17.49.30:978][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.14-17.49.30:978][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.14-17.49.30:978][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.14-17.49.31:001][  0]LogNetVersion: Violence_Project 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 168441638)
+[2019.01.14-17.49.31:394][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.081597 seconds
+[2019.01.14-17.49.31:398][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.14-17.49.31:398][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.01.14-17.49.31:399][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.14-17.49.32:049][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.14-17.49.32:064][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.14-17.49.32:195][  0]SourceControl: Source control is disabled
+[2019.01.14-17.49.32:195][  0]SourceControl: Source control is disabled
+[2019.01.14-17.49.32:196][  0]SourceControl: Source control is disabled
+[2019.01.14-17.49.32:196][  0]SourceControl: Source control is disabled
+[2019.01.14-17.49.32:343][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.14-17.49.32:412][  0]LogOcInput: OculusInput pre-init called
+[2019.01.14-17.49.32:460][  0]LogEngine: Initializing Engine...
+[2019.01.14-17.49.32:460][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.14-17.49.32:461][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.14-17.49.32:461][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.14-17.49.32:461][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.14-17.49.32:461][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.14-17.49.32:616][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.14-17.49.32:627][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.14-17.49.32:646][  0]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.14-17.49.32:657][  0]LogInit: FAudioDevice initialized.
+[2019.01.14-17.49.32:657][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.14-17.49.32:691][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/max-c/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.14-17.49.32:704][  0]LogInit: Texture streaming: Enabled
+[2019.01.14-17.49.32:718][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.14-17.49.32:729][  0]LogInit: Transaction tracking system initialized
+[2019.01.14-17.49.32:750][  0]BlueprintLog: New page: Editor Load
+[2019.01.14-17.49.32:815][  0]LocalizationService: Localization service is disabled
+[2019.01.14-17.49.33:029][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.14-17.49.33:029][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.14-17.49.33:029][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.14-17.49.33:029][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.14-17.49.33:029][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.14-17.49.33:029][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.14-17.49.33:029][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.14-17.49.33:128][  0]LogFileCache: Scanning file cache for directory 'C:/Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/' took 0.02s
+[2019.01.14-17.49.33:128][  0]SourceControl: Source control is disabled
+[2019.01.14-17.49.33:128][  0]Cmd: MAP LOAD FILE="../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.14-17.49.33:129][  0]LightingResults: New page: Lighting Build
+[2019.01.14-17.49.33:132][  0]MapCheck: New page: Map Check
+[2019.01.14-17.49.33:132][  0]LightingResults: New page: Lighting Build
+[2019.01.14-17.49.33:504][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.14-17.49.33:510][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.14-17.49.33:531][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.14-17.49.33:596][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.708ms to complete.
+[2019.01.14-17.49.33:596][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.468
+[2019.01.14-17.49.34:410][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.01.14-17.49.34:454][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ViolenceProject
+[2019.01.14-17.49.34:454][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.01.14-17.49.34:454][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2019.01.14-17.49.34:454][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.01.14-17.49.34:454][  0]LogTemp: BranchPath = WINDOWS-SA1OMO4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = WINDOWS-SA1OMO4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2019.01.14-17.49.34:454][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\max-c\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.01.14-17.49.34:454][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.14-17.49.34:461][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.14-17.49.34:466][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.14-17.49.34:471][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.14-17.49.34:476][  0]LogCollectionManager: Loaded 0 collections in 0.001405 seconds
+[2019.01.14-17.49.34:551][  0]LogFileCache: Scanning file cache for directory 'C:/Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Collections/' took 0.01s
+[2019.01.14-17.49.34:551][  0]LogFileCache: Scanning file cache for directory 'C:/Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/Developers/maxc/Collections/' took 0.01s
+[2019.01.14-17.49.34:551][  0]LogFileCache: Scanning file cache for directory 'C:/Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/Collections/' took 0.01s
+[2019.01.14-17.49.34:551][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.14-17.49.34:558][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2575 classes and 606 folders.
+[2019.01.14-17.49.34:564][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.14-17.49.34:605][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.14-17.49.34:609][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.01.14-17.49.34:620][  0]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.14-17.49.34:622][  0]LogSlate: Took 0.000622 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.14-17.49.34:629][  0]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.14-17.49.34:689][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
+[2019.01.14-17.49.34:786][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.14-17.49.34:787][  0]LogLoad: (Engine Initialization) Total time: 7.84 seconds
+[2019.01.14-17.49.34:787][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.14-17.49.34:825][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.14-17.49.34:852][  1]LogAssetRegistry: Asset discovery search completed in 4.2322 seconds
+[2019.01.14-17.49.34:853][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.14-17.49.34:853][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2019.01.14-17.49.42:666][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.14-17.49.42:784][268]Candidate modules for hot reload:
+[2019.01.14-17.49.42:784][268]  Violence_Project
+[2019.01.14-17.49.42:784][268]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Violence_Project,7422 Win64 Development -TargetType=Editor -Project="../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Violence_Project.uproject" -canskiplink "C:/Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Violence_Project.uproject" ]
+[2019.01.14-17.49.42:787][268]Warning: Starting HotReload took  0.0s.
+[2019.01.14-17.49.54:633][656]CompilerResultsLog: New page: Compilation - 14 Jan 2019 17:49:54
+[2019.01.14-17.49.54:633][656]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.14-17.49.54:633][656]CompilerResultsLog: Creating makefile for hot reloading Violence_ProjectEditor (modules to compile have changed)
+[2019.01.14-17.49.54:633][656]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.14-17.49.54:633][656]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.14-17.49.54:633][656]CompilerResultsLog: Parsing headers for Violence_ProjectEditor
+[2019.01.14-17.49.54:633][656]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Violence_Project.uproject" "C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\Violence_ProjectEditor\Development\Violence_ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.14-17.49.54:633][656]CompilerResultsLog: Error: C:/Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Source/Violence_Project/Public/PlayerCharacter.h(24)  : LogCompile: Error: Unknown variable specifier 'BlueprintVisible'
+[2019.01.14-17.49.54:633][656]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'Violence_ProjectEditor' (platform: Win64, module info: C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\Violence_ProjectEditor\Development\Violence_ProjectEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2019.01.14-17.49.54:633][656]LogMainFrame: MainFrame: Module compiling took 11.862 seconds
+[2019.01.14-17.49.54:633][656]Warning: HotReload failed, recompile failed
+[2019.01.14-17.55.32:763][213]LogSlate: Window 'Message Log' being destroyed
+[2019.01.14-17.55.32:765][213]LogSlate: Window 'Message Log' being destroyed
+[2019.01.14-17.55.34:205][271]Candidate modules for hot reload:
+[2019.01.14-17.55.34:205][271]  Violence_Project
+[2019.01.14-17.55.34:205][271]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Violence_Project,2008 Win64 Development -TargetType=Editor -Project="../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Violence_Project.uproject" -canskiplink "C:/Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Violence_Project.uproject" ]
+[2019.01.14-17.55.34:207][271]Warning: Starting HotReload took  0.0s.
+[2019.01.14-17.55.57:432][917]CompilerResultsLog: New page: Compilation - 14 Jan 2019 17:55:57
+[2019.01.14-17.55.57:433][917]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.14-17.55.57:433][917]CompilerResultsLog: Creating makefile for hot reloading Violence_ProjectEditor (modules to compile have changed)
+[2019.01.14-17.55.57:433][917]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.14-17.55.57:433][917]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.14-17.55.57:433][917]CompilerResultsLog: Parsing headers for Violence_ProjectEditor
+[2019.01.14-17.55.57:433][917]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Violence_Project.uproject" "C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\Violence_ProjectEditor\Development\Violence_ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.14-17.55.57:433][917]CompilerResultsLog: Reflection code generated for Violence_ProjectEditor in 7.8479509 seconds
+[2019.01.14-17.55.57:433][917]CompilerResultsLog: Building 5 actions with 12 processes...
+[2019.01.14-17.55.57:433][917]CompilerResultsLog:   [1/5] Violence_Project.init.gen.cpp
+[2019.01.14-17.55.57:433][917]CompilerResultsLog:   [2/5] PlayerCharacter.gen.cpp
+[2019.01.14-17.55.57:433][917]CompilerResultsLog:   [3/5] PlayerCharacter.cpp
+[2019.01.14-17.55.57:433][917]CompilerResultsLog:   [4/5] UE4Editor-Violence_Project-2008.lib
+[2019.01.14-17.55.57:433][917]CompilerResultsLog:      Creating library C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-2008.lib and object C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-2008.exp
+[2019.01.14-17.55.57:433][917]CompilerResultsLog:   [5/5] UE4Editor-Violence_Project-2008.dll
+[2019.01.14-17.55.57:433][917]CompilerResultsLog:      Creating library C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-2008.suppressed.lib and object C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-2008.suppressed.exp
+[2019.01.14-17.55.57:433][917]CompilerResultsLog: Total build time: 23.03 seconds (Parallel executor: 9.84 seconds)
+[2019.01.14-17.55.57:433][917]LogMainFrame: MainFrame: Module compiling took 23.243 seconds
+[2019.01.14-17.55.57:464][917]LogClass: Could not find existing class PlayerCharacter in package /Script/Violence_Project for HotReload, assuming new class
+[2019.01.14-17.55.57:464][917]LogClass: Function Shoot is new.
+[2019.01.14-17.55.57:465][917]LogClass: Could not find existing class Weapon in package /Script/Violence_Project for HotReload, assuming new class
+[2019.01.14-17.55.57:469][917]LogHotReload: Re-instancing PlayerCharacter after hot-reload.
+[2019.01.14-17.55.57:610][917]LogHotReload: Re-instancing Weapon after hot-reload.
+[2019.01.14-17.55.57:665][917]LogContentBrowser: Native class hierarchy updated for 'Violence_Project' in 0.0004 seconds. Added 3 classes and 3 folders.
+[2019.01.14-17.55.57:667][917]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.01.14-17.55.57:822][917]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2576 classes and 608 folders.
+[2019.01.14-17.55.57:822][917]Display: HotReload took 23.6s.
+[2019.01.14-17.56.03:364][301]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.14-17.56.03:378][301]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.14-17.56.03:378][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.14-17.56.03:390][301]PIE: New page: PIE session: ThirdPersonExampleMap (14 Jan 2019 17:56:03)
+[2019.01.14-17.56.03:390][301]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.01.14-17.56.03:408][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018561s)
+[2019.01.14-17.56.03:409][301]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.01.14-17.56.03:409][301]LogPlayLevel: PIE: World Init took: (0.000835s)
+[2019.01.14-17.56.03:409][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019569s)
+[2019.01.14-17.56.03:446][301]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.14-17.56.03:455][301]LogInit: FAudioDevice initialized.
+[2019.01.14-17.56.03:514][301]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.01.14-17.56.03:516][301]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.01.14-17.56.03
+[2019.01.14-17.56.03:516][301]LogWorld: Bringing up level for play took: 0.001115
+[2019.01.14-17.56.03:549][301]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.01.14-17.56.03:550][301]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.577
+[2019.01.14-17.56.03:550][301]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.14-17.56.06:182][563]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.14-17.56.06:184][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.14-17.56.06:217][563]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.14-17.56.06:218][563]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.01.14-17.56.06:240][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.14-17.56.06:283][566]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.01.14-17.56.16:140][202]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.14-17.56.16:339][215]LogSlate: Took 0.004309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.14-17.56.16:345][215]LogAssetEditorManager: Opening Asset editor for Class /Script/Violence_Project.PlayerCharacter
+[2019.01.14-17.56.27:939][697]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2019.01.14-17.56.28:425][697]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2019.01.14-17.56.29:107][697]LogSlate: Took 0.003784 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.14-17.56.29:319][698]LogSlate: Took 0.003797 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.14-17.59.52:600][665]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.027
+[2019.01.14-17.59.52:602][665]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2019.01.14-17.59.52:612][665]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2019.01.14-17.59.52:612][665]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2019.01.14-17.59.52:690][665]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/ThirdPersonCharacter_Auto1702F30A14F4B40ED81379FB5504D0143.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2019.01.14-17.59.52:691][665]LogFileHelpers: Auto-saving content packages took 0.092
