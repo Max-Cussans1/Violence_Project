@@ -6,9 +6,12 @@
 #include "CoreMinimal.h"
 #include "Weapon.h"
 #include "GameFramework/Character.h"
+#include "Runtime/CoreUObject/Public/UObject/ConstructorHelpers.h"
 #include "PlayerCharacter.generated.h"
 
 UCLASS()
+
+
 class VIOLENCE_PROJECT_API APlayerCharacter : public ACharacter
 {
 	GENERATED_BODY()
@@ -16,7 +19,7 @@ class VIOLENCE_PROJECT_API APlayerCharacter : public ACharacter
 public:
 	// Sets default values for this character's properties
 	APlayerCharacter();
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon")
 	AWeapon* CurrentWeapon;
 
 protected:

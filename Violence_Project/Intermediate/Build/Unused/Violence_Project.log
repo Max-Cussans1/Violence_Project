@@ -1,21 +1,4 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading Violence_ProjectEditor (modules to compile have changed)
-  Compiling game modules for hot reload
-  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 12 processes...
-    [1/3] PlayerCharacter.cpp
-C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/UnrealString.h(1369): error C2338: Invalid argument(s) passed to FString::Printf
-    C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Source\Violence_Project\Public\PlayerCharacter.cpp(48): note: see reference to function template instantiation 'FString FString::Printf<wchar_t[12],FString>(const FmtType (&),FString)' being compiled
-            with
-            [
-                FmtType=wchar_t [12]
-            ]
-C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/UnrealString.h(1371): error C4840: non-portable use of class 'FString' as an argument to a variadic function
-    C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/UnrealString.h(1371): note: 'FString::FString' is non-trivial
-    C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/UnrealString.h(73): note: see declaration of 'FString::FString'
-    C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/UnrealString.h(1371): note: the constructor and destructor will not be called; a bitwise copy of the class will be passed as the argument
-    c:\program files\epic games\ue_4.20\engine\source\runtime\core\public\Windows/WindowsPlatformNamedPipe.h(12): note: see declaration of 'FString'
-UnrealBuildTool : error : UBT ERROR: Failed to produce item: C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Binaries\Win64\UE4Editor-Violence_Project-4766.dll
-                          (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
-  Total build time: 10.98 seconds (Parallel executor: 0.00 seconds)
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.20\Engine\Build\BatchFiles\Build.bat" Violence_ProjectEditor Win64 Development "C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Violence_Project.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
+  Target is up to date
+  Deploying Violence_ProjectEditor Win64 Development...
+  Total build time: 1.02 seconds (NoActionsToExecute executor: 0.00 seconds)
