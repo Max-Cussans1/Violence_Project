@@ -24,6 +24,14 @@ public:
 	UPROPERTY(BlueprintReadOnly)
 	bool shooting = false;
 
+	//variables to store current weapon's stuff
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon")
+	int ammo;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon")
+	int clip;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon")
+	int maxClip;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

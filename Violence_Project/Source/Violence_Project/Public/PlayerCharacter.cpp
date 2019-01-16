@@ -14,6 +14,9 @@ APlayerCharacter::APlayerCharacter()
 void APlayerCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+	ammo = CurrentWeapon->ammo;
+	clip = CurrentWeapon->clip;
+	maxClip = CurrentWeapon->maxClip;
 }
 
 // Called every frame
@@ -34,7 +37,7 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 void APlayerCharacter::Shoot()
 {
 	
-	if (CurrentWeapon->clip > 0)
+	if (clip > 0)
 	{
 		
 		if (CurrentWeapon)
@@ -48,11 +51,13 @@ void APlayerCharacter::Shoot()
 			if (GetWorld()->LineTraceSingleByChannel(*HitResult, StartTrace, EndTrace, ECC_Visibility, *TraceParams))
 			{
 				DrawDebugLine(GetWorld(), StartTrace, EndTrace, FColor(255, 0, 0), true);
+				clip--;
 
 				if (GEngine)
 				{
 					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("You hit: %s"), *HitResult->Actor->GetName()));
-					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Your ammo: %d"), CurrentWeapon->ammo));
+					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Your ammo: %d"), ammo));
+					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Your current magazine: %d"), clip));
 				}
 				delete HitResult;
 				delete TraceParams;
@@ -77,18 +82,13 @@ void APlayerCharacter::StopShooting()
 
 void APlayerCharacter::Reload()
 {
-	if (CurrentWeapon->ammo >= CurrentWeapon->maxClip)
+	if (ammo > 0)
 	{
-		CurrentWeapon->clip = CurrentWeapon->maxClip;
+		ammo = ammo - (maxClip - clip);
+		clip = clip + ammo;
+		if (clip > maxClip)
+		{
+			clip = maxClip;
+		}
 	}
-	else
-	{
-		CurrentWeapon->clip += CurrentWeapon->ammo;
-	}
-	CurrentWeapon->ammo -= CurrentWeapon->maxClip;
-	if (CurrentWeapon->ammo <= 0)
-	{
-		CurrentWeapon->ammo = 0;
-	}
-
 }
