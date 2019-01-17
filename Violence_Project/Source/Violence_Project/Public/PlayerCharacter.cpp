@@ -83,9 +83,14 @@ void APlayerCharacter::StopShooting()
 void APlayerCharacter::Reload()
 {
 	if (ammo > 0)
-	{
-		ammo = ammo - (maxClip - clip);
+	{		
+		//store difference of current clip - max clip size
+		int diff = maxClip - clip;
+		//add what's left from ammo to clip
 		clip = clip + ammo;
+		//take the difference away from our total ammo (the ammo we are putting into the clip)
+		ammo = ammo - diff;
+		//make sure we aren't going above the max clip size
 		if (clip > maxClip)
 		{
 			clip = maxClip;
