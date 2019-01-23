@@ -23,6 +23,8 @@ public:
 	AWeapon* CurrentWeapon;
 	UPROPERTY(BlueprintReadOnly)
 	bool shooting = false;
+	UPROPERTY(BlueprintReadWrite)
+	bool isReloading = false;
 
 	//variables to store current weapon's stuff
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon")
@@ -31,6 +33,7 @@ public:
 	int clip;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon")
 	int maxClip;
+
 
 protected:
 	// Called when the game starts or when spawned
@@ -41,6 +44,8 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	UFUNCTION(BlueprintCallable)
 	void Shoot();
+	UFUNCTION(BlueprintCallable)
+	void Reload();
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
@@ -48,6 +53,6 @@ public:
 private: 
 	void StartShooting();
 	void StopShooting();
-	void Reload();
+	void SetReload();
 	
 };

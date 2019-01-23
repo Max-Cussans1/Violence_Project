@@ -2,9 +2,9 @@
   Compiling game modules for hot reload
   Building 3 actions with 12 processes...
     [1/3] PlayerCharacter.cpp
-    [2/3] UE4Editor-Violence_Project-2138.lib
-       Creating library C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-2138.lib and object C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-2138.exp
-    [3/3] UE4Editor-Violence_Project-2138.dll
-       Creating library C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-2138.suppressed.lib and object C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-2138.suppressed.exp
+    [2/3] UE4Editor-Violence_Project-6971.lib
+       Creating library C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-6971.lib and object C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-6971.exp
+    [3/3] UE4Editor-Violence_Project-6971.dll
+       Creating library C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-6971.suppressed.lib and object C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-6971.suppressed.exp
   Deploying Violence_ProjectEditor Win64 Development...
-  Total build time: 8.45 seconds (Parallel executor: 7.40 seconds)
+  Total build time: 9.65 seconds (Parallel executor: 8.43 seconds)

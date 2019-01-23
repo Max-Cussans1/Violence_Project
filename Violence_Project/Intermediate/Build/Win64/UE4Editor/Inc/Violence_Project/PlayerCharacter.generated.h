@@ -15,6 +15,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define Violence_Project_Source_Violence_Project_Public_PlayerCharacter_h_17_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execReload) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Reload(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execShoot) \
 	{ \
 		P_FINISH; \
@@ -25,6 +33,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define Violence_Project_Source_Violence_Project_Public_PlayerCharacter_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execReload) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Reload(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execShoot) \
 	{ \
