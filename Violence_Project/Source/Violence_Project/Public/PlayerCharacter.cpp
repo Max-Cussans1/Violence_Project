@@ -31,7 +31,7 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	InputComponent->BindAction("Shoot", IE_Pressed, this, &APlayerCharacter::StartShooting);
 	InputComponent->BindAction("Shoot", IE_Released, this, &APlayerCharacter::StopShooting);
-
+	InputComponent->BindAction("Reload", IE_Pressed, this, &APlayerCharacter::Reload);
 }
 
 void APlayerCharacter::Shoot()
@@ -94,6 +94,10 @@ void APlayerCharacter::Reload()
 		if (clip > maxClip)
 		{
 			clip = maxClip;
+		}
+		if (ammo < 0)
+		{
+			ammo = 0;
 		}
 	}
 }
