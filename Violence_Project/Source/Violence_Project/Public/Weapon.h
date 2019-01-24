@@ -15,6 +15,7 @@ class VIOLENCE_PROJECT_API AWeapon : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AWeapon();
+	UPROPERTY(BlueprintReadWrite)
 	USkeletalMeshComponent* WeaponMesh;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon")
 	int maxClip = 30;
