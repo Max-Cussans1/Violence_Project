@@ -1,0 +1,1004 @@
+﻿Log file open, 02/11/19 16:08:39
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Violence_Project
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.777233
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.104s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8086K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 1080 Ti
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.02.11-16.08.39:992][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.11-16.08.39:992][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.11-16.08.40:009][  0]LogHAL: Display: Platform has ~ 32 GB [34291802112 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.11-16.08.40:009][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.11-16.08.40:009][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.11-16.08.40:014][  0]LogInit: Computer: WINDOWS-SA1OMO4
+[2019.02.11-16.08.40:014][  0]LogInit: User: maxc
+[2019.02.11-16.08.40:014][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.02.11-16.08.40:014][  0]LogInit: High frequency timer resolution =3.914070 MHz
+[2019.02.11-16.08.40:014][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.02.11-16.08.40:014][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.11-16.08.40:014][  0]LogMemory: Process Physical Memory: 101.70 MB used, 101.70 MB peak
+[2019.02.11-16.08.40:014][  0]LogMemory: Process Virtual Memory: 94.10 MB used, 94.10 MB peak
+[2019.02.11-16.08.40:014][  0]LogMemory: Physical Memory: 5560.83 MB used,  27142.38 MB free, 32703.21 MB total
+[2019.02.11-16.08.40:014][  0]LogMemory: Virtual Memory: 4665.47 MB used,  27142.38 MB free, 134217728.00 MB total
+[2019.02.11-16.08.40:166][  0]LogInit: Using OS detected language (en-US).
+[2019.02.11-16.08.40:166][  0]LogInit: Using OS detected locale (en-GB).
+[2019.02.11-16.08.40:167][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.11-16.08.40:501][  0]LogStreaming: Display: Took  0.333s to InitEngineTextLocalization.
+[2019.02.11-16.08.40:501][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.11-16.08.40:575][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.11-16.08.40:575][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.11-16.08.42:284][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.11-16.08.42:284][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.11-16.08.42:336][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2019.02.11-16.08.42:337][  0]LogD3D11RHI:       11127/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.02.11-16.08.42:338][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.11-16.08.42:338][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.11-16.08.42:338][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.11-16.08.42:343][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.11-16.08.42:343][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.11-16.08.42:343][  0]LogWindows: EnumDisplayDevices:
+[2019.02.11-16.08.42:343][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2019.02.11-16.08.42:344][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2019.02.11-16.08.42:344][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.02.11-16.08.42:344][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2019.02.11-16.08.42:344][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.11-16.08.42:344][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2019.02.11-16.08.42:344][  0]LogD3D11RHI:   Driver Version: 416.81 (internal:25.21.14.1681, unified:416.81)
+[2019.02.11-16.08.42:344][  0]LogD3D11RHI:      Driver Date: 11-2-2018
+[2019.02.11-16.08.42:344][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2019.02.11-16.08.42:377][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.11-16.08.42:414][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.11-16.08.42:507][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Intermediate/Shaders/WorkingDirectory/2956/).
+[2019.02.11-16.08.42:507][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/max-c/AppData/Local/Temp/UnrealShaderWorkingDir/E64CF9B8410F2539DBD82FA76B7BEAEF/'.
+[2019.02.11-16.08.42:891][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.11-16.08.42:902][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.11-16.08.42:915][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.11-16.08.42:927][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.11-16.08.42:941][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.11-16.08.42:954][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.11-16.08.42:965][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.11-16.08.42:977][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.11-16.08.42:984][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.11-16.08.43:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.11-16.08.43:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.11-16.08.43:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.11-16.08.43:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.11-16.08.43:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.11-16.08.43:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.11-16.08.43:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.11-16.08.43:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.11-16.08.43:059][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.11-16.08.43:060][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.11-16.08.43:060][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.11-16.08.43:060][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.11-16.08.43:060][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.11-16.08.43:060][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.11-16.08.43:060][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.11-16.08.43:060][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.11-16.08.43:060][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.11-16.08.43:060][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.11-16.08.43:062][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.11-16.08.43:128][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.11-16.08.43:128][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.11-16.08.43:147][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.11-16.08.43:147][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.11-16.08.43:158][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.11-16.08.43:170][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.11-16.08.43:181][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.11-16.08.43:198][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.11-16.08.43:206][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.11-16.08.43:206][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.11-16.08.43:316][  0]LogXGEController: Cleaning working directory: C:/Users/max-c/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.11-16.08.43:316][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.11-16.08.43:316][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.11-16.08.43:316][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.11-16.08.44:736][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.11-16.08.44:848][  0]LogDerivedDataCache: Loaded boot cache 0.11s 71MB C:/Users/max-c/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.11-16.08.44:848][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/max-c/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.11-16.08.44:848][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.11-16.08.44:848][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.11-16.08.44:848][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.11-16.08.44:848][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.11-16.08.44:864][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.11-16.08.44:877][  0]LogDerivedDataCache: Using Local data cache path C:/Users/max-c/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.11-16.08.44:877][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.11-16.08.44:877][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.11-16.08.44:891][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.11-16.08.44:896][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.11-16.08.44:908][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.11-16.08.45:107][  0]LogAssetRegistry: FAssetRegistry took 0.0274 seconds to start up
+[2019.02.11-16.08.45:401][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.11-16.08.45:649][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.11-16.08.45:665][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.11-16.08.45:665][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.11-16.08.45:666][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.11-16.08.45:666][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.11-16.08.45:716][  0]LogNetVersion: Violence_Project 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 168441638)
+[2019.02.11-16.08.46:681][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.084287 seconds
+[2019.02.11-16.08.46:686][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.11-16.08.46:686][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.02.11-16.08.46:686][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.11-16.08.49:110][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.11-16.08.49:126][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.11-16.08.49:383][  0]SourceControl: Source control is disabled
+[2019.02.11-16.08.49:383][  0]SourceControl: Source control is disabled
+[2019.02.11-16.08.49:392][  0]SourceControl: Source control is disabled
+[2019.02.11-16.08.49:396][  0]SourceControl: Source control is disabled
+[2019.02.11-16.08.49:651][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.11-16.08.49:730][  0]LogOcInput: OculusInput pre-init called
+[2019.02.11-16.08.49:830][  0]LogEngine: Initializing Engine...
+[2019.02.11-16.08.49:832][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.11-16.08.49:834][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.11-16.08.49:834][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.11-16.08.49:834][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.11-16.08.49:834][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.11-16.08.50:132][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.11-16.08.50:155][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.11-16.08.50:185][  0]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.11-16.08.50:203][  0]LogInit: FAudioDevice initialized.
+[2019.02.11-16.08.50:204][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.11-16.08.50:238][  0]LogDerivedDataCache: Saved boot cache 0.03s 71MB C:/Users/max-c/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.11-16.08.50:250][  0]LogInit: Texture streaming: Enabled
+[2019.02.11-16.08.50:270][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.11-16.08.50:286][  0]LogInit: Transaction tracking system initialized
+[2019.02.11-16.08.50:337][  0]BlueprintLog: New page: Editor Load
+[2019.02.11-16.08.50:496][  0]LocalizationService: Localization service is disabled
+[2019.02.11-16.08.50:984][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.11-16.08.50:985][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.11-16.08.50:985][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.11-16.08.50:985][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.11-16.08.50:985][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.11-16.08.50:985][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.11-16.08.50:985][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.11-16.08.51:228][  0]LogFileCache: Scanning file cache for directory 'C:/Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/' took 0.04s
+[2019.02.11-16.08.51:228][  0]SourceControl: Source control is disabled
+[2019.02.11-16.08.51:229][  0]Cmd: MAP LOAD FILE="../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.11-16.08.51:234][  0]LightingResults: New page: Lighting Build
+[2019.02.11-16.08.51:241][  0]MapCheck: New page: Map Check
+[2019.02.11-16.08.51:241][  0]LightingResults: New page: Lighting Build
+[2019.02.11-16.08.52:203][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.02.11-16.08.52:227][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.11-16.08.52:254][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.11-16.08.52:318][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.631ms to complete.
+[2019.02.11-16.08.52:318][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.089
+[2019.02.11-16.08.53:287][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.02.11-16.08.53:355][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ViolenceProject
+[2019.02.11-16.08.53:355][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.02.11-16.08.53:355][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2019.02.11-16.08.53:355][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.02.11-16.08.53:355][  0]LogTemp: BranchPath = WINDOWS-SA1OMO4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = WINDOWS-SA1OMO4/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2019.02.11-16.08.53:355][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\max-c\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.02.11-16.08.53:355][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.11-16.08.53:361][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.11-16.08.53:367][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.11-16.08.53:372][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.11-16.08.53:387][  0]LogCollectionManager: Loaded 0 collections in 0.001565 seconds
+[2019.02.11-16.08.53:446][  0]LogFileCache: Scanning file cache for directory 'C:/Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Collections/' took 0.01s
+[2019.02.11-16.08.53:446][  0]LogFileCache: Scanning file cache for directory 'C:/Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/Developers/maxc/Collections/' took 0.01s
+[2019.02.11-16.08.53:446][  0]LogFileCache: Scanning file cache for directory 'C:/Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/Collections/' took 0.01s
+[2019.02.11-16.08.53:446][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.11-16.08.53:458][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2575 classes and 606 folders.
+[2019.02.11-16.08.53:468][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.11-16.08.53:738][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.11-16.08.53:750][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.02.11-16.08.53:784][  0]LogSlate: Took 0.004186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.11-16.08.53:791][  0]LogSlate: Took 0.004225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.11-16.08.53:799][  0]LogSlate: Took 0.003467 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.11-16.08.53:910][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
+[2019.02.11-16.08.54:035][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.02.11-16.08.54:035][  0]LogLoad: (Engine Initialization) Total time: 17.41 seconds
+[2019.02.11-16.08.54:035][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.11-16.08.54:076][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.11-16.08.54:135][  1]LogAssetRegistry: Asset discovery search completed in 9.0508 seconds
+[2019.02.11-16.08.54:137][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.11-16.08.54:137][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2019.02.11-16.11.35:977][483]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.11-16.12.26:435][408]LogSlate: Took 0.003486 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.11-16.12.41:894][408]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.02.11-16.12.49:305][699]LogAssetEditorManager: Opening Asset editor for BlackboardData /Game/AI/BB_AIChar.BB_AIChar
+[2019.02.11-16.12.51:011][786]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/AI/BT_AIChar.BT_AIChar
+[2019.02.11-16.12.51:123][786]LogSlate: Took 0.003356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.11-16.13.08:560][619]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.02.11-16.13.14:214][217]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/AIChar.
+[2019.02.11-16.13.59:036][613]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.02.11-16.14.02:569][ 35]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/AI/AIControl.
+[2019.02.11-16.14.18:806][781]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.11-16.14.18:827][781]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-16.14.18:831][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.11-16.14.18:845][781]PIE: New page: PIE session: ThirdPersonExampleMap (11 Feb 2019 16:14:18)
+[2019.02.11-16.14.18:845][781]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.02.11-16.14.18:861][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016023s)
+[2019.02.11-16.14.18:862][781]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.02.11-16.14.18:862][781]LogPlayLevel: PIE: World Init took: (0.000602s)
+[2019.02.11-16.14.18:862][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016733s)
+[2019.02.11-16.14.18:898][781]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.11-16.14.18:905][781]LogInit: FAudioDevice initialized.
+[2019.02.11-16.14.18:954][781]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.11-16.14.18:956][781]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.02.11-16.14.18
+[2019.02.11-16.14.18:956][781]LogWorld: Bringing up level for play took: 0.001416
+[2019.02.11-16.14.18:975][781]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2019.02.11-16.14.18:978][781]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.149
+[2019.02.11-16.14.18:978][781]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-16.14.43:935][771]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-16.14.43:953][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.11-16.14.43:985][771]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.11-16.14.43:985][771]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-16.14.44:005][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.11-16.14.44:040][774]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.02.11-16.14.50:307][999]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.11-16.15.27:593][883]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.02.11-16.16.13:152][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BB_AIChar" FILE="../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/BB_AIChar.uasset" SILENT=true
+[2019.02.11-16.16.13:159][141]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/BB_AICharF8B70F134F2C1EF599AE988D9EFEA19D.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/BB_AIChar.uasset'
+[2019.02.11-16.16.29:415][ 85]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BB_AIChar" FILE="../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/BB_AIChar.uasset" SILENT=true
+[2019.02.11-16.16.29:432][ 85]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/BB_AICharC07C86D445DF350FA58542AFFDDB1EDF.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/BB_AIChar.uasset'
+[2019.02.11-16.17.02:087][194]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AI/AIControl.AIControl
+[2019.02.11-16.17.02:603][194]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2019.02.11-16.17.15:465][793]LogSlate: Took 0.004210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.11-16.17.31:986][435]BlueprintLog: New page: Compile AIControl
+[2019.02.11-16.18.57:446][788]LogSlate: Took 0.003419 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.02.11-16.24.06:491][355]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.024
+[2019.02.11-16.24.06:492][355]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BT_AIChar] ([1] browsable assets)...
+[2019.02.11-16.24.06:492][355]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BT_AIChar]
+[2019.02.11-16.24.06:498][355]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/BT_AIChar_Auto19971D82A46974461ADAEF4A9081F5A17.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Autosaves/Game/AI/BT_AIChar_Auto1.uasset'
+[2019.02.11-16.24.06:499][355]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BB_AIChar] ([1] browsable assets)...
+[2019.02.11-16.24.06:499][355]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BB_AIChar]
+[2019.02.11-16.24.06:513][355]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/BB_AIChar_Auto1E73C44AA459C76CBB378149A4063EA23.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Autosaves/Game/AI/BB_AIChar_Auto1.uasset'
+[2019.02.11-16.24.06:514][355]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/AIChar] ([1] browsable assets)...
+[2019.02.11-16.24.06:514][355]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AIChar]
+[2019.02.11-16.24.06:525][355]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/AIChar_Auto14710D75A4F94CEFBF0F7639C2187D957.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Autosaves/Game/AI/AIChar_Auto1.uasset'
+[2019.02.11-16.24.06:540][355]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/AIControl] ([1] browsable assets)...
+[2019.02.11-16.24.06:540][355]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AIControl]
+[2019.02.11-16.24.06:557][355]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/AIControl_Auto17287623F4CC1D8FE5447AD9E403D9472.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Autosaves/Game/AI/AIControl_Auto1.uasset'
+[2019.02.11-16.24.06:557][355]LogFileHelpers: Auto-saving content packages took 0.066
+[2019.02.11-16.24.23:370][ 52]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.02.11-16.31.14:718][641]BlueprintLog: New page: Compile AIControl
+[2019.02.11-16.31.23:880][174]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AI/AIChar.AIChar
+[2019.02.11-16.31.27:904][390]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.02.11-16.31.41:804][234]BlueprintLog: New page: Compile AIChar
+[2019.02.11-16.31.42:511][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AIChar" FILE="../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/AIChar.uasset" SILENT=true
+[2019.02.11-16.31.42:524][254]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/AICharF4AD33B04B7778C7CC3FDC9D19BB78E9.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/AIChar.uasset'
+[2019.02.11-16.31.42:842][256]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/AI/AIChar.
+[2019.02.11-16.33.45:410][937]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.11-16.33.45:697][937]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.02.11-16.35.07:869][457]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.11-16.35.09:541][508]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.02.11-16.35.09:878][508]LogTexture: Display: Building textures: UE4Man_Logo_N (BC5, 512X512)
+[2019.02.11-16.35.09:878][508]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_D (DXT1, 512X512)
+[2019.02.11-16.35.09:878][508]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jog_Rt_Rifle.Jog_Rt_Rifle
+[2019.02.11-16.35.09:878][508]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Jog_Rt_Rifle.Jog_Rt_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_37) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.11-16.35.10:169][508]LogTexture: Display: Building textures: UE4_Mannequin_occlusion_Mobile (DXT1, 512X512)
+[2019.02.11-16.35.10:169][508]LogTexture: Display: Building textures: T_ML_Aluminum01 (DXT1, 512X512)
+[2019.02.11-16.35.10:169][508]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_N (BC5, 512X512)
+[2019.02.11-16.35.10:169][508]LogTexture: Display: Building textures: T_ML_Aluminum01_N (BC5, 512X512)
+[2019.02.11-16.35.10:169][508]LogTexture: Display: Building textures: UE4_Mannequin__normals (BC5, 2048X2048)
+[2019.02.11-16.35.10:169][508]LogTexture: Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT, 1024X1024)
+[2019.02.11-16.35.10:169][508]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2019.02.11-16.35.10:251][508]LogSkeletalMesh: Building Skeletal Mesh SK_Mannequin...
+[2019.02.11-16.35.10:293][508]LogShaderCompilers: Display: Shaders left to compile 128
+[2019.02.11-16.35.10:293][508]LogShaderCompilers: Display: Shaders left to compile 118
+[2019.02.11-16.35.10:293][508]LogShaderCompilers: Display: Shaders left to compile 108
+[2019.02.11-16.35.10:293][508]LogShaderCompilers: Display: Shaders left to compile 98
+[2019.02.11-16.35.10:293][508]LogShaderCompilers: Display: Shaders left to compile 88
+[2019.02.11-16.35.10:293][508]LogShaderCompilers: Display: Shaders left to compile 78
+[2019.02.11-16.35.10:293][508]LogShaderCompilers: Display: Shaders left to compile 68
+[2019.02.11-16.35.10:293][508]LogShaderCompilers: Display: Shaders left to compile 58
+[2019.02.11-16.35.10:293][508]LogSkeletalMesh: Built Skeletal Mesh [0.04s] /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2019.02.11-16.35.10:297][508]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip
+[2019.02.11-16.35.10:297][508]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_2) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.11-16.35.10:300][508]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip.Crouch_Walk_Lt_Rifle_Hip
+[2019.02.11-16.35.10:300][508]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip.Crouch_Walk_Lt_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_10) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.11-16.35.10:301][508]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jog_Bwd_Rifle.Jog_Bwd_Rifle
+[2019.02.11-16.35.10:301][508]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Jog_Bwd_Rifle.Jog_Bwd_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_34) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.11-16.35.10:302][508]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip.Crouch_Walk_Rt_Rifle_Hip
+[2019.02.11-16.35.10:302][508]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip.Crouch_Walk_Rt_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_12) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.11-16.35.10:303][508]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jog_Lt_Rifle.Jog_Lt_Rifle
+[2019.02.11-16.35.10:303][508]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Jog_Lt_Rifle.Jog_Lt_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.11-16.35.10:304][508]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jog_Fwd_Rifle.Jog_Fwd_Rifle
+[2019.02.11-16.35.10:304][508]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Jog_Fwd_Rifle.Jog_Fwd_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_35) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.11-16.35.10:305][508]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip
+[2019.02.11-16.35.10:305][508]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_30) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.11-16.35.10:309][508]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jump_From_Stand.Jump_From_Stand
+[2019.02.11-16.35.10:309][508]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Jump_From_Stand.Jump_From_Stand) using current/default (AnimCompress_BitwiseCompressOnly_39) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.11-16.35.10:310][508]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip.Crouch_Walk_Bwd_Rifle_Hip
+[2019.02.11-16.35.10:310][508]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip.Crouch_Walk_Bwd_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_6) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.11-16.35.10:311][508]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip.Crouch_Walk_Fwd_Rifle_Hip
+[2019.02.11-16.35.10:311][508]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip.Crouch_Walk_Fwd_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_8) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.11-16.35.10:315][508]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2019.02.11-16.35.10:377][508]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/AnimStarterPack/Jump_From_Jog.Jump_From_Jog
+[2019.02.11-16.35.10:377][508]LogAnimationCompression: Recompressing (AnimSequence /Game/AnimStarterPack/Jump_From_Jog.Jump_From_Jog) using current/default (AnimCompress_BitwiseCompressOnly_38) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.02.11-16.35.11:929][554]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.11-16.35.11:943][554]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.02.11-16.35.12:097][560]LogShaderCompilers: Display: Shaders left to compile 176
+[2019.02.11-16.35.12:217][564]LogShaderCompilers: Display: Shaders left to compile 166
+[2019.02.11-16.35.12:349][569]LogShaderCompilers: Display: Shaders left to compile 156
+[2019.02.11-16.35.12:351][569]LogShaderCompilers: Display: Shaders left to compile 146
+[2019.02.11-16.35.12:420][571]LogShaderCompilers: Display: Shaders left to compile 136
+[2019.02.11-16.35.12:839][586]LogShaderCompilers: Display: Shaders left to compile 126
+[2019.02.11-16.35.13:470][609]LogShaderCompilers: Display: Shaders left to compile 116
+[2019.02.11-16.35.13:525][611]LogShaderCompilers: Display: Shaders left to compile 106
+[2019.02.11-16.35.13:611][614]LogShaderCompilers: Display: Shaders left to compile 96
+[2019.02.11-16.35.13:845][622]LogShaderCompilers: Display: Shaders left to compile 86
+[2019.02.11-16.35.14:204][631]LogShaderCompilers: Display: Shaders left to compile 76
+[2019.02.11-16.35.14:379][636]LogShaderCompilers: Display: Shaders left to compile 66
+[2019.02.11-16.35.14:606][643]LogShaderCompilers: Display: Shaders left to compile 56
+[2019.02.11-16.35.14:893][651]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.02.11-16.35.14:997][654]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.02.11-16.35.15:081][656]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.02.11-16.35.15:643][669]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.02.11-16.35.15:685][670]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.11-16.35.26:942][ 47]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2019.02.11-16.35.26:942][ 47]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2019.02.11-16.35.47:914][558]LogAnimation: Warning: AnimBP UE4ASP_HeroTPP_AnimBlueprint_C is incompatible with skeleton Swat_Skeleton, removing AnimBP from actor.
+[2019.02.11-16.35.47:915][558]LogAnimation: Warning: AnimBP UE4ASP_HeroTPP_AnimBlueprint_C is incompatible with skeleton Swat_Skeleton, removing AnimBP from actor.
+[2019.02.11-16.35.47:915][558]LogAnimation: Warning: AnimBP UE4ASP_HeroTPP_AnimBlueprint_C is incompatible with skeleton Swat_Skeleton, removing AnimBP from actor.
+[2019.02.11-16.35.53:294][796]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2019.02.11-16.35.53:294][796]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2019.02.11-16.36.41:108][902]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.023
+[2019.02.11-16.36.41:110][902]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/AIChar] ([1] browsable assets)...
+[2019.02.11-16.36.41:118][902]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/AIChar.AIChar]
+[2019.02.11-16.36.41:118][902]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AIChar]
+[2019.02.11-16.36.41:160][902]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/AIChar_Auto26D9473544BD12223BCB3998514D3AFEF.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Autosaves/Game/AI/AIChar_Auto2.uasset'
+[2019.02.11-16.36.41:161][902]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/AIControl] ([1] browsable assets)...
+[2019.02.11-16.36.41:161][902]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AIControl]
+[2019.02.11-16.36.41:186][902]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/AIControl_Auto2EC6CE2F343643655E1C6A4833E77A4F4.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Autosaves/Game/AI/AIControl_Auto2.uasset'
+[2019.02.11-16.36.41:187][902]LogFileHelpers: Auto-saving content packages took 0.079
+[2019.02.11-16.37.35:415][381]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.11-16.37.35:634][390]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Assets/Character/Swat.Swat
+[2019.02.11-16.37.35:657][390]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.02.11-16.37.35:925][390]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.11-16.37.35:934][390]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2019.02.11-16.37.35:976][390]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.02.11-16.37.36:232][390]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2019.02.11-16.38.47:811][146]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.11-16.38.49:425][207]LogAssetEditorManager: Opening Asset editor for BlendSpace /Game/Assets/Character/Blendspaces/Crouch_BS.Crouch_BS
+[2019.02.11-16.38.49:519][207]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.11-16.38.49:543][207]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.02.11-16.38.49:870][207]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.02.11-16.39.43:642][409]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.11-16.40.01:960][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AIChar" FILE="../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/AIChar.uasset" SILENT=true
+[2019.02.11-16.40.01:985][ 70]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/AICharEF915F414823090C720F6B8405FE70C1.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/AIChar.uasset'
+[2019.02.11-16.40.02:898][109]BlueprintLog: New page: Compile AIChar
+[2019.02.11-16.40.03:873][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AIChar" FILE="../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/AIChar.uasset" SILENT=true
+[2019.02.11-16.40.03:900][141]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/AIChar1294B220479DE049F8145EBFE8386DC3.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/AIChar.uasset'
+[2019.02.11-16.41.43:694][933]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/Assets/Character/Swat_Skeleton.Swat_Skeleton
+[2019.02.11-16.41.43:795][933]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.02.11-16.41.43:821][933]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.02.11-16.42.12:777][196]BlueprintLog: New page: Compile AIChar
+[2019.02.11-16.42.13:900][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AIChar" FILE="../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/AIChar.uasset" SILENT=true
+[2019.02.11-16.42.13:934][222]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/AICharC7F84E6348DFFD9B1E1BB7A065642134.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/AIChar.uasset'
+[2019.02.11-16.42.27:127][153]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.11-16.42.30:253][388]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.11-16.42.32:022][462]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-16.42.32:026][462]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.11-16.42.32:026][462]PIE: New page: SIE session: ThirdPersonExampleMap (11 Feb 2019 16:42:32)
+[2019.02.11-16.42.32:026][462]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.02.11-16.42.32:035][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009387s)
+[2019.02.11-16.42.32:036][462]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.02.11-16.42.32:036][462]LogPlayLevel: PIE: World Init took: (0.000527s)
+[2019.02.11-16.42.32:036][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010021s)
+[2019.02.11-16.42.32:078][462]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.11-16.42.32:085][462]LogInit: FAudioDevice initialized.
+[2019.02.11-16.42.32:086][462]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.11-16.42.32:127][462]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.11-16.42.32:129][462]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.02.11-16.42.32
+[2019.02.11-16.42.32:130][462]LogWorld: Bringing up level for play took: 0.002775
+[2019.02.11-16.42.32:143][462]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.016
+[2019.02.11-16.42.32:187][462]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-16.42.45:217][708]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.11-16.42.45:289][713]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-16.42.45:292][713]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.11-16.42.45:332][713]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.11-16.42.45:332][713]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-16.42.45:356][713]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.11-16.42.45:388][716]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.02.11-16.43.15:250][965]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.11-16.43.19:083][137]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.11-16.43.19:167][141]BlueprintLog: New page: Compile AIChar
+[2019.02.11-16.43.19:795][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AIChar" FILE="../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/AIChar.uasset" SILENT=true
+[2019.02.11-16.43.19:824][157]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/AIChar96B280404594DD7A5A8952A51BFB3930.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/AIChar.uasset'
+[2019.02.11-16.43.20:609][203]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.11-16.43.21:660][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.11-16.43.21:730][267]LogTemp: Repeating last play command: Simulate
+[2019.02.11-16.43.21:749][267]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-16.43.21:753][267]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.11-16.43.21:753][267]PIE: New page: SIE session: ThirdPersonExampleMap (11 Feb 2019 16:43:21)
+[2019.02.11-16.43.21:753][267]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.02.11-16.43.21:761][267]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007647s)
+[2019.02.11-16.43.21:761][267]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.02.11-16.43.21:761][267]LogPlayLevel: PIE: World Init took: (0.000499s)
+[2019.02.11-16.43.21:761][267]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.008245s)
+[2019.02.11-16.43.21:798][267]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.11-16.43.21:805][267]LogInit: FAudioDevice initialized.
+[2019.02.11-16.43.21:833][267]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.11-16.43.21:835][267]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.02.11-16.43.21
+[2019.02.11-16.43.21:836][267]LogWorld: Bringing up level for play took: 0.001651
+[2019.02.11-16.43.21:848][267]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.721
+[2019.02.11-16.43.21:850][267]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-16.43.31:629][173]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.11-16.43.31:723][179]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-16.43.31:725][179]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.11-16.43.31:769][179]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.11-16.43.31:769][179]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-16.43.31:796][179]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.11-16.43.31:826][182]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.02.11-16.43.45:520][702]LogTemp: Repeating last play command: Simulate
+[2019.02.11-16.43.45:537][702]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-16.43.45:540][702]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.11-16.43.45:540][702]PIE: New page: SIE session: ThirdPersonExampleMap (11 Feb 2019 16:43:45)
+[2019.02.11-16.43.45:540][702]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.02.11-16.43.45:547][702]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006588s)
+[2019.02.11-16.43.45:547][702]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.02.11-16.43.45:548][702]LogPlayLevel: PIE: World Init took: (0.000505s)
+[2019.02.11-16.43.45:548][702]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.007189s)
+[2019.02.11-16.43.45:586][702]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.11-16.43.45:592][702]LogInit: FAudioDevice initialized.
+[2019.02.11-16.43.45:620][702]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.11-16.43.45:622][702]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.02.11-16.43.45
+[2019.02.11-16.43.45:623][702]LogWorld: Bringing up level for play took: 0.001607
+[2019.02.11-16.43.45:635][702]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.508
+[2019.02.11-16.43.45:637][702]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-16.43.47:489][873]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-16.43.47:492][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.11-16.43.47:522][873]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.11-16.43.47:522][873]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-16.43.47:545][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.11-16.43.47:648][877]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.02.11-16.43.57:284][530]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.11-16.43.57:368][534]BlueprintLog: New page: Compile AIChar
+[2019.02.11-16.43.57:926][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AIChar" FILE="../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/AIChar.uasset" SILENT=true
+[2019.02.11-16.43.57:958][549]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/AIChar3CE012DE45DD77135766C78A5444C3DF.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/AIChar.uasset'
+[2019.02.11-16.43.58:770][575]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.11-16.44.32:683][822]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.11-16.44.34:227][886]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.11-16.48.06:579][311]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/ThirdPersonExampleMap_Auto3CB37E7D249C2A8D0AF0116939F2FC18C.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2019.02.11-16.48.06:584][311]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.181
+[2019.02.11-16.48.06:584][311]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.181
+[2019.02.11-16.48.06:585][311]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/AIChar] ([1] browsable assets)...
+[2019.02.11-16.48.06:599][311]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/AIChar.AIChar]
+[2019.02.11-16.48.06:599][311]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AIChar]
+[2019.02.11-16.48.06:628][311]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/AIChar_Auto332C39F4C4DC88D9DB4058C9373E6320E.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Autosaves/Game/AI/AIChar_Auto3.uasset'
+[2019.02.11-16.48.06:629][311]LogFileHelpers: Auto-saving content packages took 0.044
+[2019.02.11-16.50.15:456][253]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2019.02.11-16.50.45:133][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.11-17.02.19:924][ 37]BlueprintLog: New page: Compile AIChar
+[2019.02.11-17.02.19:937][ 37]LogBlueprint: Error: [Compiler AIChar] The type of  Object  is undetermined.  Connect something to  Cast To ThirdPersonCharacter  to imply a specific type.
+[2019.02.11-17.02.19:937][ 37]LogBlueprint: Error: [Compiler AIChar] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2019.02.11-17.02.20:073][ 37]LogBlueprint: Warning: [Compiler AIChar] [3223.44] Compile of AIChar failed. 2 Fatal Issue(s) 0 Warning(s) [in 148 ms] (/Game/AI/AIChar.AIChar)
+[2019.02.11-17.03.17:857][516]BlueprintLog: New page: Compile AIChar
+[2019.02.11-17.03.19:147][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AIChar" FILE="../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/AIChar.uasset" SILENT=true
+[2019.02.11-17.03.19:190][561]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/AICharA8FF45D445187B386E6A55AC69E57DC2.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/AIChar.uasset'
+[2019.02.11-17.03.36:982][702]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.11-17.03.38:046][730]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.11-17.03.40:426][828]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-17.03.40:430][828]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.11-17.03.40:430][828]PIE: New page: SIE session: ThirdPersonExampleMap (11 Feb 2019 17:03:40)
+[2019.02.11-17.03.40:430][828]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.02.11-17.03.40:439][828]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008844s)
+[2019.02.11-17.03.40:440][828]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.02.11-17.03.40:440][828]LogPlayLevel: PIE: World Init took: (0.000560s)
+[2019.02.11-17.03.40:440][828]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.009507s)
+[2019.02.11-17.03.40:479][828]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.11-17.03.40:486][828]LogInit: FAudioDevice initialized.
+[2019.02.11-17.03.40:486][828]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.11-17.03.40:519][828]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.11-17.03.40:521][828]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.02.11-17.03.40
+[2019.02.11-17.03.40:522][828]LogWorld: Bringing up level for play took: 0.001712
+[2019.02.11-17.03.40:534][828]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.593
+[2019.02.11-17.03.40:537][828]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-17.03.42:903][ 49]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.11-17.03.42:905][ 49]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-17.03.42:909][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.11-17.03.42:941][ 49]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.11-17.03.42:941][ 49]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-17.03.42:964][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.11-17.03.43:005][ 52]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.02.11-17.03.53:513][520]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-17.03.53:516][520]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.11-17.03.53:516][520]PIE: New page: PIE session: ThirdPersonExampleMap (11 Feb 2019 17:03:53)
+[2019.02.11-17.03.53:516][520]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.02.11-17.03.53:525][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008680s)
+[2019.02.11-17.03.53:526][520]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.02.11-17.03.53:526][520]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2019.02.11-17.03.53:526][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.009503s)
+[2019.02.11-17.03.53:563][520]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.11-17.03.53:569][520]LogInit: FAudioDevice initialized.
+[2019.02.11-17.03.53:596][520]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.11-17.03.53:598][520]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.02.11-17.03.53
+[2019.02.11-17.03.53:598][520]LogWorld: Bringing up level for play took: 0.001598
+[2019.02.11-17.03.53:611][520]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.484
+[2019.02.11-17.03.53:611][520]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-17.04.46:528][807]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-17.04.46:532][807]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.11-17.04.46:567][807]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.11-17.04.46:567][807]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.02.11-17.04.46:594][807]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.11-17.04.46:629][810]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.02.11-17.05.18:571][417]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/ThirdPersonExampleMap_Auto437E350E24B9BBD14B60D0B86B881265A.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2019.02.11-17.05.18:576][417]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.168
+[2019.02.11-17.05.18:576][417]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.168
+[2019.02.11-17.07.02:319][727]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.11-17.07.05:788][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BT_AIChar" FILE="../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/BT_AIChar.uasset" SILENT=true
+[2019.02.11-17.07.05:793][858]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/BT_AIChar1B7AE6654A586244EEA4BDAB6CD09C8D.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/BT_AIChar.uasset'
+[2019.02.11-17.07.07:780][955]LogSlate: Window 'Swat_Skeleton' being destroyed
+[2019.02.11-17.07.07:794][955]LogSlate: Window 'Swat_Skeleton' being destroyed
+[2019.02.11-17.07.07:824][955]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.02.11-17.07.07:897][955]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.02.11-17.08.18:769][270]LogSlate: Window 'Save Content' being destroyed
+[2019.02.11-17.08.18:793][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AIControl" FILE="../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/AIControl.uasset" SILENT=true
+[2019.02.11-17.08.18:820][270]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/AIControlB5A7D76E4E33D35905E6F1AC847342C6.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/AIControl.uasset'
+[2019.02.11-17.08.18:829][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BB_AIChar" FILE="../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/BB_AIChar.uasset" SILENT=true
+[2019.02.11-17.08.18:845][270]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/BB_AIChar51925A084A006838FDB434A170D9627D.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/AI/BB_AIChar.uasset'
+[2019.02.11-17.08.19:086][270]LogSavePackage: Moving '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Saved/ThirdPersonExampleMap2D0C38F843F8B3A3F002CE9F31997649.tmp' to '../../../../../../Users/max-c/Documents/GitHub/Violence_Project/Violence_Project/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.02.11-17.08.19:116][270]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.264
+[2019.02.11-17.08.19:186][270]LogSlate: Window 'Violence_Project - Unreal Editor' being destroyed
+[2019.02.11-17.08.19:186][270]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.11-17.08.19:401][271]Cmd: QUIT_EDITOR
+[2019.02.11-17.08.20:257][271]LogExit: Preparing to exit.
+[2019.02.11-17.08.20:957][271]LogExit: Editor shut down
+[2019.02.11-17.08.20:957][271]LogExit: Transaction tracking system shut down
+[2019.02.11-17.08.21:592][271]LogExit: Object subsystem successfully closed.
+[2019.02.11-17.08.21:610][271]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.02.11-17.08.21:612][271]LogD3D11RHI: Shutdown
+[2019.02.11-17.08.21:612][271]LogD3D11RHI: CleanupD3DDevice
+[2019.02.11-17.08.21:614][271]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.02.11-17.08.21:637][271]LogModuleManager: Shutting down and abandoning module AnimationEditor (628)
+[2019.02.11-17.08.21:637][271]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (626)
+[2019.02.11-17.08.21:638][271]LogModuleManager: Shutting down and abandoning module PinnedCommandList (624)
+[2019.02.11-17.08.21:638][271]LogModuleManager: Shutting down and abandoning module SkeletonEditor (622)
+[2019.02.11-17.08.21:638][271]LogModuleManager: Shutting down and abandoning module BlueprintGraph (620)
+[2019.02.11-17.08.21:638][271]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (618)
+[2019.02.11-17.08.21:638][271]LogModuleManager: Shutting down and abandoning module Voice (616)
+[2019.02.11-17.08.21:638][271]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (614)
+[2019.02.11-17.08.21:638][271]LogModuleManager: Shutting down and abandoning module SceneOutliner (612)
+[2019.02.11-17.08.21:638][271]LogModuleManager: Shutting down and abandoning module AddContentDialog (610)
+[2019.02.11-17.08.21:638][271]LogModuleManager: Shutting down and abandoning module WidgetCarousel (609)
+[2019.02.11-17.08.21:638][271]LogModuleManager: Shutting down and abandoning module EditorWidgets (606)
+[2019.02.11-17.08.21:638][271]LogModuleManager: Shutting down and abandoning module CollectionManager (604)
+[2019.02.11-17.08.21:638][271]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (602)
+[2019.02.11-17.08.21:638][271]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2019.02.11-17.08.21:638][271]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2019.02.11-17.08.21:638][271]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2019.02.11-17.08.21:639][271]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2019.02.11-17.08.21:639][271]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2019.02.11-17.08.21:639][271]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2019.02.11-17.08.21:639][271]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2019.02.11-17.08.21:639][271]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2019.02.11-17.08.21:639][271]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2019.02.11-17.08.21:639][271]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2019.02.11-17.08.21:639][271]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2019.02.11-17.08.21:639][271]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2019.02.11-17.08.21:639][271]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2019.02.11-17.08.21:639][271]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2019.02.11-17.08.21:639][271]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2019.02.11-17.08.21:639][271]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2019.02.11-17.08.21:640][271]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2019.02.11-17.08.21:640][271]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2019.02.11-17.08.21:640][271]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2019.02.11-17.08.21:640][271]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2019.02.11-17.08.21:640][271]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2019.02.11-17.08.21:640][271]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2019.02.11-17.08.21:640][271]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2019.02.11-17.08.21:640][271]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2019.02.11-17.08.21:640][271]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2019.02.11-17.08.21:640][271]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2019.02.11-17.08.21:640][271]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2019.02.11-17.08.21:640][271]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2019.02.11-17.08.21:640][271]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2019.02.11-17.08.21:640][271]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2019.02.11-17.08.21:640][271]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2019.02.11-17.08.21:640][271]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2019.02.11-17.08.21:640][271]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2019.02.11-17.08.21:640][271]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2019.02.11-17.08.21:640][271]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2019.02.11-17.08.21:640][271]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2019.02.11-17.08.21:640][271]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2019.02.11-17.08.21:641][271]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2019.02.11-17.08.21:641][271]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2019.02.11-17.08.21:641][271]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2019.02.11-17.08.21:641][271]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2019.02.11-17.08.21:641][271]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2019.02.11-17.08.21:641][271]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2019.02.11-17.08.21:641][271]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2019.02.11-17.08.21:641][271]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2019.02.11-17.08.21:641][271]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2019.02.11-17.08.22:496][271]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2019.02.11-17.08.22:496][271]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2019.02.11-17.08.22:496][271]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2019.02.11-17.08.22:496][271]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2019.02.11-17.08.22:496][271]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2019.02.11-17.08.22:511][271]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2019.02.11-17.08.22:511][271]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2019.02.11-17.08.22:511][271]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2019.02.11-17.08.22:511][271]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2019.02.11-17.08.22:511][271]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2019.02.11-17.08.22:511][271]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2019.02.11-17.08.22:511][271]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2019.02.11-17.08.22:511][271]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2019.02.11-17.08.22:511][271]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2019.02.11-17.08.22:511][271]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2019.02.11-17.08.22:511][271]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2019.02.11-17.08.22:511][271]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2019.02.11-17.08.22:512][271]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2019.02.11-17.08.22:512][271]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2019.02.11-17.08.22:512][271]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2019.02.11-17.08.22:512][271]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2019.02.11-17.08.22:512][271]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2019.02.11-17.08.22:567][271]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2019.02.11-17.08.22:567][271]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2019.02.11-17.08.22:567][271]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2019.02.11-17.08.22:568][271]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2019.02.11-17.08.22:568][271]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2019.02.11-17.08.22:568][271]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2019.02.11-17.08.22:569][271]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2019.02.11-17.08.22:569][271]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2019.02.11-17.08.22:569][271]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2019.02.11-17.08.22:569][271]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2019.02.11-17.08.22:573][271]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2019.02.11-17.08.22:573][271]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2019.02.11-17.08.22:574][271]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2019.02.11-17.08.22:574][271]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
+[2019.02.11-17.08.22:574][271]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.02.11-17.08.22:574][271]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.02.11-17.08.22:574][271]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.02.11-17.08.22:574][271]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.02.11-17.08.22:575][271]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.02.11-17.08.22:575][271]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.02.11-17.08.22:575][271]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.02.11-17.08.22:575][271]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.02.11-17.08.22:575][271]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.02.11-17.08.22:575][271]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.02.11-17.08.22:575][271]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.02.11-17.08.22:575][271]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.02.11-17.08.22:575][271]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.02.11-17.08.22:575][271]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.02.11-17.08.22:575][271]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.02.11-17.08.22:575][271]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.02.11-17.08.22:575][271]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.02.11-17.08.22:575][271]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.02.11-17.08.22:678][271]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.02.11-17.08.22:678][271]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.02.11-17.08.22:678][271]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.02.11-17.08.22:678][271]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.02.11-17.08.22:678][271]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.02.11-17.08.22:678][271]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.02.11-17.08.22:678][271]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.02.11-17.08.22:678][271]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.02.11-17.08.22:678][271]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.02.11-17.08.22:678][271]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.02.11-17.08.22:678][271]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.02.11-17.08.22:678][271]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.02.11-17.08.22:678][271]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.02.11-17.08.22:678][271]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.02.11-17.08.22:679][271]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2019.02.11-17.08.22:679][271]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2019.02.11-17.08.22:679][271]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2019.02.11-17.08.22:679][271]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2019.02.11-17.08.22:682][271]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.02.11-17.08.22:682][271]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.02.11-17.08.22:682][271]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.02.11-17.08.22:682][271]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.02.11-17.08.22:682][271]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.02.11-17.08.22:682][271]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.02.11-17.08.22:682][271]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.02.11-17.08.22:682][271]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.02.11-17.08.22:683][271]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.02.11-17.08.22:683][271]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.02.11-17.08.22:683][271]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2019.02.11-17.08.22:683][271]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2019.02.11-17.08.22:683][271]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.02.11-17.08.22:683][271]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.02.11-17.08.22:683][271]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.02.11-17.08.22:683][271]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.02.11-17.08.22:683][271]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.02.11-17.08.22:683][271]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.02.11-17.08.22:683][271]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.02.11-17.08.22:683][271]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.02.11-17.08.22:684][271]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.02.11-17.08.22:684][271]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.02.11-17.08.22:684][271]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.02.11-17.08.22:684][271]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.02.11-17.08.22:684][271]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.02.11-17.08.22:684][271]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.02.11-17.08.22:684][271]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.02.11-17.08.22:684][271]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2019.02.11-17.08.22:684][271]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2019.02.11-17.08.22:684][271]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2019.02.11-17.08.22:684][271]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2019.02.11-17.08.22:684][271]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2019.02.11-17.08.22:684][271]LogModuleManager: Shutting down and abandoning module Violence_Project (300)
+[2019.02.11-17.08.22:684][271]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.02.11-17.08.22:684][271]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.02.11-17.08.22:684][271]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.02.11-17.08.22:684][271]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.02.11-17.08.22:684][271]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.02.11-17.08.22:684][271]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.02.11-17.08.22:684][271]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.02.11-17.08.22:684][271]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.02.11-17.08.22:684][271]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.02.11-17.08.22:785][271]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.02.11-17.08.22:885][271]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.02.11-17.08.22:885][271]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.02.11-17.08.22:885][271]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.02.11-17.08.22:885][271]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.02.11-17.08.22:885][271]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.02.11-17.08.22:885][271]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.02.11-17.08.22:885][271]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.02.11-17.08.22:886][271]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.02.11-17.08.22:886][271]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.02.11-17.08.22:886][271]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.02.11-17.08.22:886][271]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.02.11-17.08.22:886][271]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.02.11-17.08.22:887][271]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.02.11-17.08.22:887][271]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.02.11-17.08.22:887][271]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.02.11-17.08.22:887][271]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.02.11-17.08.22:887][271]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.02.11-17.08.22:887][271]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.02.11-17.08.22:889][271]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.02.11-17.08.22:895][271]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.02.11-17.08.22:895][271]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.02.11-17.08.22:895][271]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.02.11-17.08.22:895][271]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.02.11-17.08.22:895][271]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.02.11-17.08.22:895][271]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.02.11-17.08.22:895][271]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.02.11-17.08.22:895][271]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.02.11-17.08.22:896][271]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.02.11-17.08.22:896][271]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.02.11-17.08.22:896][271]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.02.11-17.08.22:896][271]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.02.11-17.08.22:896][271]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.02.11-17.08.22:896][271]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.02.11-17.08.22:896][271]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.02.11-17.08.22:896][271]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.02.11-17.08.22:897][271]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.02.11-17.08.22:897][271]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.02.11-17.08.22:898][271]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.02.11-17.08.22:898][271]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.02.11-17.08.22:900][271]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.02.11-17.08.22:900][271]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.02.11-17.08.22:900][271]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.02.11-17.08.22:900][271]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.02.11-17.08.22:900][271]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.02.11-17.08.22:900][271]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.02.11-17.08.22:900][271]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.02.11-17.08.22:900][271]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.02.11-17.08.22:900][271]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.02.11-17.08.22:900][271]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.02.11-17.08.22:900][271]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.02.11-17.08.22:900][271]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.02.11-17.08.22:901][271]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.02.11-17.08.22:901][271]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.02.11-17.08.22:901][271]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.02.11-17.08.22:902][271]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.02.11-17.08.22:902][271]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.02.11-17.08.22:902][271]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.02.11-17.08.22:942][271]LogDerivedDataCache: Shutdown
+[2019.02.11-17.08.22:942][271]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.02.11-17.08.22:942][271]LogXGEController: Cleaning working directory: C:/Users/max-c/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.11-17.08.22:942][271]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.02.11-17.08.22:942][271]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.02.11-17.08.22:942][271]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.02.11-17.08.22:942][271]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.02.11-17.08.22:943][271]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.02.11-17.08.22:943][271]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.02.11-17.08.22:943][271]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.02.11-17.08.22:943][271]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.02.11-17.08.22:943][271]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.02.11-17.08.22:943][271]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.02.11-17.08.22:943][271]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.02.11-17.08.22:943][271]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.02.11-17.08.22:943][271]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.02.11-17.08.22:943][271]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.02.11-17.08.22:943][271]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.02.11-17.08.22:943][271]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.02.11-17.08.22:943][271]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.02.11-17.08.22:943][271]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.02.11-17.08.22:943][271]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.02.11-17.08.22:943][271]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.02.11-17.08.22:943][271]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.02.11-17.08.22:943][271]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.02.11-17.08.22:944][271]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.02.11-17.08.22:944][271]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.02.11-17.08.22:944][271]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.02.11-17.08.22:944][271]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.02.11-17.08.22:948][271]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.02.11-17.08.22:948][271]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.02.11-17.08.22:948][271]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.02.11-17.08.22:948][271]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.02.11-17.08.22:948][271]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.02.11-17.08.22:948][271]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.02.11-17.08.22:948][271]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.02.11-17.08.22:948][271]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.02.11-17.08.22:948][271]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.02.11-17.08.22:948][271]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.02.11-17.08.22:948][271]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.02.11-17.08.22:948][271]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.02.11-17.08.22:948][271]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.02.11-17.08.22:948][271]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.02.11-17.08.22:948][271]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.02.11-17.08.22:948][271]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.02.11-17.08.22:948][271]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.02.11-17.08.22:948][271]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.02.11-17.08.22:949][271]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.02.11-17.08.22:950][271]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.02.11-17.08.22:978][271]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.02.11-17.08.22:978][271]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.02.11-17.08.22:978][271]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2A2FA4CF-4629-1A91-15CC-B985B29D0BF1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=076fe9bf484b3f0e1d90ad8efffb5b8a%7Cde321570f30d49089cbda788345aa0a1%7C1e484149-29a3-4b16-b657-e083ada46820&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.02.11-17.08.23:000][271]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.02.11-17.08.23:001][271]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.02.11-17.08.23:001][271]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.02.11-17.08.23:001][271]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.02.11-17.08.23:001][271]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.02.11-17.08.23:001][271]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.02.11-17.08.23:001][271]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.02.11-17.08.23:001][271]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.02.11-17.08.23:001][271]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.02.11-17.08.23:001][271]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.02.11-17.08.23:001][271]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.02.11-17.08.23:002][271]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.02.11-17.08.23:002][271]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.02.11-17.08.23:002][271]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.02.11-17.08.23:002][271]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.02.11-17.08.23:002][271]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.02.11-17.08.23:002][271]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.02.11-17.08.23:002][271]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.02.11-17.08.23:002][271]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.02.11-17.08.23:003][271]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.02.11-17.08.23:003][271]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.02.11-17.08.23:003][271]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.02.11-17.08.23:003][271]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.02.11-17.08.23:003][271]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.02.11-17.08.23:003][271]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.02.11-17.08.23:003][271]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.02.11-17.08.23:003][271]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.02.11-17.08.23:003][271]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.02.11-17.08.23:003][271]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.02.11-17.08.23:003][271]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.02.11-17.08.23:012][271]LogExit: Exiting.
+[2019.02.11-17.08.23:017][271]Log file closed, 02/11/19 17:08:23
