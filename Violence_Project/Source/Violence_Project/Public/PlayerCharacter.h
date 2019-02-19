@@ -6,6 +6,7 @@
 #include "CoreMinimal.h"
 #include "Weapon.h"
 #include "GameFramework/Character.h"
+#include "Runtime/Engine/Classes/Engine/EngineTypes.h"
 #include "Runtime/CoreUObject/Public/UObject/ConstructorHelpers.h"
 #include "PlayerCharacter.generated.h"
 

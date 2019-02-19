@@ -47,7 +47,7 @@ void APlayerCharacter::Shoot()
 			FVector ForwardVector = CurrentWeapon->WeaponMesh->GetSocketRotation("Muzzle").Vector();
 			FVector EndTrace = (ForwardVector * 5000.f) + StartTrace;
 			FCollisionQueryParams* TraceParams = new FCollisionQueryParams;
-
+			
 			if (GetWorld()->LineTraceSingleByChannel(*HitResult, StartTrace, EndTrace, ECC_Visibility, *TraceParams))
 			{
 				DrawDebugLine(GetWorld(), StartTrace, EndTrace, FColor(255, 0, 0), true);
@@ -59,6 +59,7 @@ void APlayerCharacter::Shoot()
 					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Your ammo: %d"), ammo));
 					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Your current magazine: %d"), clip));
 				}
+
 				delete HitResult;
 				delete TraceParams;
 			}
