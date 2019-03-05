@@ -5,6 +5,7 @@
 #include "Engine.h"
 #include "CoreMinimal.h"
 #include "Weapon.h"
+#include "EnemyCharacter.h"
 #include "GameFramework/Character.h"
 #include "Runtime/Engine/Classes/Engine/EngineTypes.h"
 #include "Runtime/CoreUObject/Public/UObject/ConstructorHelpers.h"
@@ -22,10 +23,14 @@ public:
 	APlayerCharacter();
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon")
 	AWeapon* CurrentWeapon;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy")
+	AEnemyCharacter* CurrentTarget;
 	UPROPERTY(BlueprintReadOnly)
 	bool shooting = false;
 	UPROPERTY(BlueprintReadWrite)
 	bool isReloading = false;
+	UPROPERTY(BlueprintReadOnly)
+	FVector HitLocation;
 
 	//variables to store current weapon's stuff
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon")

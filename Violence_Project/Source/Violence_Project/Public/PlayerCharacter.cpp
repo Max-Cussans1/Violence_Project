@@ -42,26 +42,33 @@ void APlayerCharacter::Shoot()
 		
 		if (CurrentWeapon)
 		{
-			FHitResult* HitResult = new FHitResult();
+			FHitResult HitResult;
 			FVector StartTrace = CurrentWeapon->WeaponMesh->GetSocketLocation("Muzzle");
 			FVector ForwardVector = CurrentWeapon->WeaponMesh->GetSocketRotation("Muzzle").Vector();
 			FVector EndTrace = (ForwardVector * 5000.f) + StartTrace;
-			FCollisionQueryParams* TraceParams = new FCollisionQueryParams;
-			
-			if (GetWorld()->LineTraceSingleByChannel(*HitResult, StartTrace, EndTrace, ECC_Visibility, *TraceParams))
+			FCollisionQueryParams TraceParams;
+			if (GetWorld()->LineTraceSingleByChannel(HitResult, StartTrace, EndTrace, ECC_Visibility, TraceParams))
 			{
 				DrawDebugLine(GetWorld(), StartTrace, EndTrace, FColor(255, 0, 0), true);
 				clip--;
-
+				HitLocation = HitResult.Location;
 				if (GEngine)
 				{
-					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("You hit: %s"), *HitResult->Actor->GetName()));
+					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("You hit: %s"), *HitResult.GetActor()->GetName()));
 					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Your ammo: %d"), ammo));
 					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Your current magazine: %d"), clip));
+					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Your current target's HP: %d"), CurrentTarget->Health));
 				}
 
-				delete HitResult;
-				delete TraceParams;
+				if (HitResult.GetActor()->IsA(AEnemyCharacter::StaticClass()))
+				{
+					CurrentTarget = (AEnemyCharacter*)HitResult.GetActor();
+					if (CurrentTarget->EnemyIsDead == false)
+					{
+						CurrentTarget->TakeDamage();
+					}
+				}
+
 			}
 		}
 	}

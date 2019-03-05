@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Violence_Project.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{6345E08E-D4D2-4EB1-B84F-DBE3DA7C0880}</UniqueIdentifier>
+			<UniqueIdentifier>{A28F6B55-6452-4BDD-AFD4-6FDB8A2905B9}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Violence_Project.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{9FAD0197-BB83-4FEE-976F-CA7F351AC831}</UniqueIdentifier>
+			<UniqueIdentifier>{7374682E-F817-4E71-AF91-6589EE9B297F}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\Violence_Project">
-			<UniqueIdentifier>{C7B32F15-478B-463D-B796-770A3F892DA7}</UniqueIdentifier>
+			<UniqueIdentifier>{F23575FE-B43C-41A9-939C-9F7B7C7A00DA}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Violence_Project\Violence_Project.Build.cs">
 			<Filter>Source\Violence_Project</Filter>
@@ -43,8 +43,11 @@
 			<Filter>Source\Violence_Project</Filter>
 		</ClInclude >
 		<Filter Include="Source\Violence_Project\Private">
-			<UniqueIdentifier>{762BDBEA-3345-4EE9-98C3-BE5820AEC571}</UniqueIdentifier>
+			<UniqueIdentifier>{FBF2E71D-8C82-4B13-A4F1-AFA8F9B4CD42}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\Violence_Project\Private\EnemyCharacter.cpp">
+			<Filter>Source\Violence_Project\Private</Filter>
+		</ClCompile >
 		<ClCompile Include="..\..\Source\Violence_Project\Private\Target.cpp">
 			<Filter>Source\Violence_Project\Private</Filter>
 		</ClCompile >
@@ -52,8 +55,11 @@
 			<Filter>Source\Violence_Project\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\Violence_Project\Public">
-			<UniqueIdentifier>{CDD179ED-0886-488F-B03E-57B29107CE56}</UniqueIdentifier>
+			<UniqueIdentifier>{BF704499-5E1C-4D60-9FCE-E4F2C576DFB7}</UniqueIdentifier>
 		</Filter>
+		<ClInclude Include="..\..\Source\Violence_Project\Public\EnemyCharacter.h">
+			<Filter>Source\Violence_Project\Public</Filter>
+		</ClInclude >
 		<ClCompile Include="..\..\Source\Violence_Project\Public\PlayerCharacter.cpp">
 			<Filter>Source\Violence_Project\Public</Filter>
 		</ClCompile >

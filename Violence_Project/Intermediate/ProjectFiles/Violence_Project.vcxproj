@@ -84,7 +84,7 @@
 		</ProjectConfiguration>
 	</ItemGroup>
 	<PropertyGroup Label="Globals">
-		<ProjectGuid>{B7306997-322B-41C1-BB60-9237F46D6EEC}</ProjectGuid>
+		<ProjectGuid>{C83B3088-8752-4DF3-BC30-55D216FF013B}</ProjectGuid>
 		<Keyword>MakeFileProj</Keyword>
 		<RootNamespace>Violence_Project</RootNamespace>
 		<PlatformToolset>v141</PlatformToolset>
@@ -422,8 +422,10 @@
 		<None Include="..\..\Source\Violence_Project\Violence_Project.Build.cs" />
 		<ClCompile Include="..\..\Source\Violence_Project\Violence_Project.cpp" />
 		<ClInclude Include="..\..\Source\Violence_Project\Violence_Project.h" />
+		<ClCompile Include="..\..\Source\Violence_Project\Private\EnemyCharacter.cpp" />
 		<ClCompile Include="..\..\Source\Violence_Project\Private\Target.cpp" />
 		<ClCompile Include="..\..\Source\Violence_Project\Private\Weapon.cpp" />
+		<ClInclude Include="..\..\Source\Violence_Project\Public\EnemyCharacter.h" />
 		<ClCompile Include="..\..\Source\Violence_Project\Public\PlayerCharacter.cpp" />
 		<ClInclude Include="..\..\Source\Violence_Project\Public\PlayerCharacter.h" />
 		<ClInclude Include="..\..\Source\Violence_Project\Public\Target.h" />

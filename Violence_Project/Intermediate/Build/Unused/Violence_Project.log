@@ -1,16 +1,14 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading Violence_ProjectEditor (no existing makefile)
   Compiling game modules for hot reload
-  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for Violence_ProjectEditor
-    Running UnrealHeaderTool "C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Violence_Project.uproject" "C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\Violence_ProjectEditor\Development\Violence_ProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for Violence_ProjectEditor in 8.3286366 seconds
-  Building 4 actions with 12 processes...
-    [1/4] PlayerCharacter.gen.cpp
-    [2/4] PlayerCharacter.cpp
-    [3/4] UE4Editor-Violence_Project-9456.lib
-       Creating library C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-9456.lib and object C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-9456.exp
-    [4/4] UE4Editor-Violence_Project-9456.dll
-       Creating library C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-9456.suppressed.lib and object C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-9456.suppressed.exp
+  Building 3 actions with 12 processes...
+    [1/3] PlayerCharacter.cpp
+c:\users\max-c\documents\github\violence_project\violence_project\source\violence_project\public\EnemyCharacter.h(32): warning C4263: 'void AEnemyCharacter::TakeDamage(void)': member function does not override any base class virtual member function
+c:\users\max-c\documents\github\violence_project\violence_project\source\violence_project\public\EnemyCharacter.h(36): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
+    C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
+    C:\Program Files\Epic Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CheatManager.generated.h(14): note: see declaration of 'APawn'
+    [2/3] UE4Editor-Violence_Project-1640.lib
+       Creating library C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-1640.lib and object C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-1640.exp
+    [3/3] UE4Editor-Violence_Project-1640.dll
+       Creating library C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-1640.suppressed.lib and object C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-1640.suppressed.exp
   Deploying Violence_ProjectEditor Win64 Development...
-  Total build time: 23.40 seconds (Parallel executor: 10.03 seconds)
+  Total build time: 8.62 seconds (Parallel executor: 7.58 seconds)

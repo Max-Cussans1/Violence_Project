@@ -19,6 +19,8 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 	UPackage* Z_Construct_UPackage__Script_Violence_Project();
 	VIOLENCE_PROJECT_API UFunction* Z_Construct_UFunction_APlayerCharacter_Reload();
 	VIOLENCE_PROJECT_API UFunction* Z_Construct_UFunction_APlayerCharacter_Shoot();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	VIOLENCE_PROJECT_API UClass* Z_Construct_UClass_AEnemyCharacter_NoRegister();
 	VIOLENCE_PROJECT_API UClass* Z_Construct_UClass_AWeapon_NoRegister();
 // End Cross Module References
 	void APlayerCharacter::StaticRegisterNativesAPlayerCharacter()
@@ -98,6 +100,10 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ammo;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitLocation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_HitLocation;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_isReloading_MetaData[];
 #endif
 		static void NewProp_isReloading_SetBit(void* Obj);
@@ -107,6 +113,10 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 #endif
 		static void NewProp_shooting_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_shooting;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentTarget_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CurrentTarget;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentWeapon_MetaData[];
 #endif
@@ -153,6 +163,13 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ammo = { UE4CodeGen_Private::EPropertyClass::Int, "ammo", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(APlayerCharacter, ammo), METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ammo_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ammo_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_HitLocation_MetaData[] = {
+		{ "Category", "PlayerCharacter" },
+		{ "ModuleRelativePath", "Public/PlayerCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_HitLocation = { UE4CodeGen_Private::EPropertyClass::Struct, "HitLocation", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000014, 1, nullptr, STRUCT_OFFSET(APlayerCharacter, HitLocation), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_HitLocation_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_HitLocation_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_isReloading_MetaData[] = {
 		{ "Category", "PlayerCharacter" },
 		{ "ModuleRelativePath", "Public/PlayerCharacter.h" },
@@ -175,6 +192,13 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_shooting = { UE4CodeGen_Private::EPropertyClass::Bool, "shooting", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000014, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(APlayerCharacter), &Z_Construct_UClass_APlayerCharacter_Statics::NewProp_shooting_SetBit, METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_shooting_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_shooting_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_CurrentTarget_MetaData[] = {
+		{ "Category", "Enemy" },
+		{ "ModuleRelativePath", "Public/PlayerCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_CurrentTarget = { UE4CodeGen_Private::EPropertyClass::Object, "CurrentTarget", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(APlayerCharacter, CurrentTarget), Z_Construct_UClass_AEnemyCharacter_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_CurrentTarget_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_CurrentTarget_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_CurrentWeapon_MetaData[] = {
 		{ "Category", "Weapon" },
 		{ "ModuleRelativePath", "Public/PlayerCharacter.h" },
@@ -185,8 +209,10 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_maxClip,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_clip,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ammo,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_HitLocation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_isReloading,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_shooting,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_CurrentTarget,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_CurrentWeapon,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APlayerCharacter_Statics::StaticCppClassTypeInfo = {
@@ -212,7 +238,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerCharacter, 2711629613);
+	IMPLEMENT_CLASS(APlayerCharacter, 2985080279);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayerCharacter(Z_Construct_UClass_APlayerCharacter, &APlayerCharacter::StaticClass, TEXT("/Script/Violence_Project"), TEXT("APlayerCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayerCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
