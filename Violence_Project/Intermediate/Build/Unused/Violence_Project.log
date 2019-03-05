@@ -1,14 +1,25 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Compiling game modules for hot reload
+  Creating makefile for Violence_ProjectEditor (ini files are newer than UBTMakefile)
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Deleting old hot reload file: "C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Binaries\Win64\UE4Editor-Violence_Project-1640.dll".
+  Deleting old hot reload file: "C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Binaries\Win64\UE4Editor-Violence_Project-1640.pdb".
+  Deleting old hot reload file: "C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Binaries\Win64\UE4Editor-Violence_Project-3276.dll".
+  Deleting old hot reload file: "C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Binaries\Win64\UE4Editor-Violence_Project-3276.pdb".
+  Deleting old hot reload file: "C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Binaries\Win64\UE4Editor-Violence_Project-4609.dll".
+  Deleting old hot reload file: "C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Binaries\Win64\UE4Editor-Violence_Project-4609.pdb".
+  Deleting old hot reload file: "C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Binaries\Win64\UE4Editor-Violence_Project-4622.dll".
+  Deleting old hot reload file: "C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Binaries\Win64\UE4Editor-Violence_Project-4622.pdb".
+  Deleting old hot reload file: "C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Binaries\Win64\UE4Editor-Violence_Project-5718.dll".
+  Deleting old hot reload file: "C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Binaries\Win64\UE4Editor-Violence_Project-5718.pdb".
   Building 3 actions with 12 processes...
     [1/3] PlayerCharacter.cpp
 c:\users\max-c\documents\github\violence_project\violence_project\source\violence_project\public\EnemyCharacter.h(32): warning C4263: 'void AEnemyCharacter::TakeDamage(void)': member function does not override any base class virtual member function
 c:\users\max-c\documents\github\violence_project\violence_project\source\violence_project\public\EnemyCharacter.h(36): warning C4264: 'float APawn::TakeDamage(float,const FDamageEvent &,AController *,AActor *)': no override available for virtual member function from base 'APawn'; function is hidden
     C:\Program Files\Epic Games\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h(218): note: see declaration of 'APawn::TakeDamage'
     C:\Program Files\Epic Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CheatManager.generated.h(14): note: see declaration of 'APawn'
-    [2/3] UE4Editor-Violence_Project-1640.lib
-       Creating library C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-1640.lib and object C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-1640.exp
-    [3/3] UE4Editor-Violence_Project-1640.dll
-       Creating library C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-1640.suppressed.lib and object C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project-1640.suppressed.exp
+    [2/3] UE4Editor-Violence_Project.lib
+       Creating library C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project.lib and object C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project.exp
+    [3/3] UE4Editor-Violence_Project.dll
+       Creating library C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project.suppressed.lib and object C:\Users\max-c\Documents\GitHub\Violence_Project\Violence_Project\Intermediate\Build\Win64\UE4Editor\Development\Violence_Project\UE4Editor-Violence_Project.suppressed.exp
   Deploying Violence_ProjectEditor Win64 Development...
-  Total build time: 8.62 seconds (Parallel executor: 7.58 seconds)
+  Total build time: 12.40 seconds (Parallel executor: 7.81 seconds)

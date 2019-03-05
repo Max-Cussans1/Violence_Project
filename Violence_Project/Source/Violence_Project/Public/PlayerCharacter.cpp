@@ -43,15 +43,17 @@ void APlayerCharacter::Shoot()
 		if (CurrentWeapon)
 		{
 			FHitResult HitResult;
-			FVector StartTrace = CurrentWeapon->WeaponMesh->GetSocketLocation("Muzzle");
-			FVector ForwardVector = CurrentWeapon->WeaponMesh->GetSocketRotation("Muzzle").Vector();
+			FVector StartTrace = CurrentWeapon->WeaponMesh->GetSocketLocation("Muzzle"); //begin our trace where we put the muzzle socket in editor
+			FVector ForwardVector = CurrentWeapon->WeaponMesh->GetSocketRotation("Muzzle").Vector(); //check the forward vector from our socket
 			FVector EndTrace = (ForwardVector * 5000.f) + StartTrace;
 			FCollisionQueryParams TraceParams;
 			if (GetWorld()->LineTraceSingleByChannel(HitResult, StartTrace, EndTrace, ECC_Visibility, TraceParams))
 			{
-				DrawDebugLine(GetWorld(), StartTrace, EndTrace, FColor(255, 0, 0), true);
-				clip--;
-				HitLocation = HitResult.Location;
+				DrawDebugLine(GetWorld(), StartTrace, EndTrace, FColor(255, 0, 0), true);	//debug line to show our shot
+				clip--; //lose a bullet in our clip
+				HitLocation = HitResult.Location; //store the location for bullet decals/blood vfx
+
+				//some usefuld ebug prints
 				if (GEngine)
 				{
 					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("You hit: %s"), *HitResult.GetActor()->GetName()));
@@ -60,12 +62,12 @@ void APlayerCharacter::Shoot()
 					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Your current target's HP: %d"), CurrentTarget->Health));
 				}
 
-				if (HitResult.GetActor()->IsA(AEnemyCharacter::StaticClass()))
+				if (HitResult.GetActor()->IsA(AEnemyCharacter::StaticClass())) //check if we've hit an enemy
 				{
-					CurrentTarget = (AEnemyCharacter*)HitResult.GetActor();
-					if (CurrentTarget->EnemyIsDead == false)
+					CurrentTarget = (AEnemyCharacter*)HitResult.GetActor(); //set our current target to the enemy we have hit and cast to our enemy class from actor
+					if (CurrentTarget->EnemyIsDead == false) //check if the enemy's not already dead
 					{
-						CurrentTarget->TakeDamage();
+						CurrentTarget->TakeDamage(); //call the takedamage function in our enemy class
 					}
 				}
 
