@@ -31,6 +31,8 @@ public:
 	bool isReloading = false;
 	UPROPERTY(BlueprintReadOnly)
 	FVector HitLocation;
+	UPROPERTY(BlueprintReadWrite)
+	bool hasHitEnemy = false;
 
 	//variables to store current weapon's stuff
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Weapon")

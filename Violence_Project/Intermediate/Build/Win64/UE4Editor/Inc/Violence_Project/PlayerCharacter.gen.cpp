@@ -100,6 +100,11 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_ammo;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_hasHitEnemy_MetaData[];
+#endif
+		static void NewProp_hasHitEnemy_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_hasHitEnemy;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitLocation_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_HitLocation;
@@ -163,6 +168,17 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ammo = { UE4CodeGen_Private::EPropertyClass::Int, "ammo", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(APlayerCharacter, ammo), METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ammo_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ammo_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_hasHitEnemy_MetaData[] = {
+		{ "Category", "PlayerCharacter" },
+		{ "ModuleRelativePath", "Public/PlayerCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_APlayerCharacter_Statics::NewProp_hasHitEnemy_SetBit(void* Obj)
+	{
+		((APlayerCharacter*)Obj)->hasHitEnemy = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_APlayerCharacter_Statics::NewProp_hasHitEnemy = { UE4CodeGen_Private::EPropertyClass::Bool, "hasHitEnemy", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000004, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(APlayerCharacter), &Z_Construct_UClass_APlayerCharacter_Statics::NewProp_hasHitEnemy_SetBit, METADATA_PARAMS(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_hasHitEnemy_MetaData, ARRAY_COUNT(Z_Construct_UClass_APlayerCharacter_Statics::NewProp_hasHitEnemy_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerCharacter_Statics::NewProp_HitLocation_MetaData[] = {
 		{ "Category", "PlayerCharacter" },
 		{ "ModuleRelativePath", "Public/PlayerCharacter.h" },
@@ -209,6 +225,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_maxClip,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_clip,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_ammo,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_hasHitEnemy,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_HitLocation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_isReloading,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerCharacter_Statics::NewProp_shooting,
@@ -238,7 +255,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerCharacter, 2985080279);
+	IMPLEMENT_CLASS(APlayerCharacter, 632880450);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APlayerCharacter(Z_Construct_UClass_APlayerCharacter, &APlayerCharacter::StaticClass, TEXT("/Script/Violence_Project"), TEXT("APlayerCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APlayerCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

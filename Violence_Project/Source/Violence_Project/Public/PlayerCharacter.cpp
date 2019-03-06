@@ -64,6 +64,7 @@ void APlayerCharacter::Shoot()
 
 				if (HitResult.GetActor()->IsA(AEnemyCharacter::StaticClass())) //check if we've hit an enemy
 				{
+					hasHitEnemy = true;
 					CurrentTarget = (AEnemyCharacter*)HitResult.GetActor(); //set our current target to the enemy we have hit and cast to our enemy class from actor
 					if (CurrentTarget->EnemyIsDead == false) //check if the enemy's not already dead
 					{
