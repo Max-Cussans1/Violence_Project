@@ -17,6 +17,11 @@ public:
 	int Health = 100;
 	UPROPERTY(BlueprintReadOnly)
 	bool EnemyIsDead = false;
+	UPROPERTY(BlueprintReadOnly)
+	bool EnemyIsHeadshot = false;
+	UPROPERTY(BlueprintReadWrite)
+	USkeletalMeshComponent* EnemyMesh;
+	
 
 protected:
 	// Called when the game starts or when spawned
@@ -29,7 +34,7 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	void TakeDamage();
+	void TakeDamage(int damage);
 
 	
 	

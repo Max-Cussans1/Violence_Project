@@ -16,11 +16,11 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Violence_Project-8876.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Violence_Project-6674.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Violence_Project-8876.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Violence_Project-6674.pdb",
 			"Type": "SymbolFile"
 		},
 		{

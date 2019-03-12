@@ -15,6 +15,12 @@ AEnemyCharacter::AEnemyCharacter()
 void AEnemyCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+	TArray<USkeletalMeshComponent*> comps;
+	this->GetComponents<USkeletalMeshComponent>(comps);
+	if (comps.Num() > 0)
+	{
+		EnemyMesh = comps[0];
+	}
 	
 }
 
@@ -32,12 +38,7 @@ void AEnemyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComp
 
 }
 
-void AEnemyCharacter::TakeDamage()
+void AEnemyCharacter::TakeDamage(int damage)
 {
-	Health -= 10;
-	if (Health <= 0)
-	{
-		EnemyIsDead = true;
-	}
-
+	Health -= damage;
 }

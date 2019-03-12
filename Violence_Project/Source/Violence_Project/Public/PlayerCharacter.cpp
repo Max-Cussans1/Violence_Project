@@ -49,29 +49,53 @@ void APlayerCharacter::Shoot()
 			FCollisionQueryParams TraceParams;
 			if (GetWorld()->LineTraceSingleByChannel(HitResult, StartTrace, EndTrace, ECC_Visibility, TraceParams))
 			{
-				DrawDebugLine(GetWorld(), StartTrace, EndTrace, FColor(255, 0, 0), true);	//debug line to show our shot
+				//DrawDebugLine(GetWorld(), StartTrace, EndTrace, FColor(255, 0, 0), true);	//debug line to show our shot
 				clip--; //lose a bullet in our clip
 				HitLocation = HitResult.Location; //store the location for bullet decals/blood vfx
 
-				//some usefuld ebug prints
+				//some useful debug prints
 				if (GEngine)
 				{
-					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("You hit: %s"), *HitResult.GetActor()->GetName()));
-					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Your ammo: %d"), ammo));
-					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Your current magazine: %d"), clip));
-					GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Your current target's HP: %d"), CurrentTarget->Health));
+					//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("You hit: %s"), *HitResult.GetActor()->GetName()));
+					//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Your current target's HP: %d"), CurrentTarget->Health));
+
 				}
 
 				if (HitResult.GetActor()->IsA(AEnemyCharacter::StaticClass())) //check if we've hit an enemy
 				{
 					hasHitEnemy = true;
 					CurrentTarget = (AEnemyCharacter*)HitResult.GetActor(); //set our current target to the enemy we have hit and cast to our enemy class from actor
-					if (CurrentTarget->EnemyIsDead == false) //check if the enemy's not already dead
+
+									/*ONSCREEN DEBUG TO CHECK WHERE SHOTS ARE AND WHERE THE HEAD SOCKET IS*/
+					if (GEngine)
 					{
-						CurrentTarget->TakeDamage(); //call the takedamage function in our enemy class
+					//GEngine->AddOnScreenDebugMessage(-1, 45.f, FColor::Red, FString::Printf(TEXT("X: %f"), HitResult.Location.X));
+					//GEngine->AddOnScreenDebugMessage(-1, 45.f, FColor::Red, FString::Printf(TEXT("Y: %f"), HitResult.Location.Y));
+					//GEngine->AddOnScreenDebugMessage(-1, 45.f, FColor::Red, FString::Printf(TEXT("Z: %f"), HitResult.Location.Z));
+					//GEngine->AddOnScreenDebugMessage(-1, 45.f, FColor::Red, FString::Printf(TEXT("Head X: %f"), CurrentTarget->EnemyMesh->GetSocketLocation("Head").X));
+					//GEngine->AddOnScreenDebugMessage(-1, 45.f, FColor::Red, FString::Printf(TEXT("Head Y: %f"), CurrentTarget->EnemyMesh->GetSocketLocation("Head").Y));
+					//GEngine->AddOnScreenDebugMessage(-1, 45.f, FColor::Red, FString::Printf(TEXT("Head Z: %f"), CurrentTarget->EnemyMesh->GetSocketLocation("Head").Z));
+					}
+					
+					if (CurrentTarget->Health > 0) //check if the enemy's not already dead
+					{
+						if (HitResult.Location.X <= CurrentTarget->EnemyMesh->GetSocketLocation("Head").X + 35 && HitResult.Location.X >= CurrentTarget->EnemyMesh->GetSocketLocation("Head").X - 35 &&
+							HitResult.Location.Y <= CurrentTarget->EnemyMesh->GetSocketLocation("Head").Y + 35 && HitResult.Location.Y >= CurrentTarget->EnemyMesh->GetSocketLocation("Head").Y - 35 &&
+							HitResult.Location.Z <= CurrentTarget->EnemyMesh->GetSocketLocation("Head").Z + 35 && HitResult.Location.Z >= CurrentTarget->EnemyMesh->GetSocketLocation("Head").Z - 35) //check if we headshot the enemy by checking around the Head socket in all directions
+						{
+							CurrentTarget->TakeDamage(100); //call the takedamage function in our enemy class with more damage since it's a headshot
+							CurrentTarget->EnemyIsHeadshot = true;
+						}
+						else
+						{
+							CurrentTarget->TakeDamage(25); //call the takedamage function in our enemy class
+							if (CurrentTarget->Health <= 0)
+							{
+								CurrentTarget->EnemyIsDead = true;
+							}
+						}
 					}
 				}
-
 			}
 		}
 	}

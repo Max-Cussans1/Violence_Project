@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeViolence_Project_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Violence_Project",
 				PKG_CompiledIn | 0x00000000,
-				0xD02E375F,
+				0x475F5DAA,
 				0x84FE2697,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
