@@ -81,7 +81,7 @@ void APlayerCharacter::Shoot()
 					{
 						if (HitResult.Location.X <= CurrentTarget->EnemyMesh->GetSocketLocation("Head").X + 35 && HitResult.Location.X >= CurrentTarget->EnemyMesh->GetSocketLocation("Head").X - 35 &&
 							HitResult.Location.Y <= CurrentTarget->EnemyMesh->GetSocketLocation("Head").Y + 35 && HitResult.Location.Y >= CurrentTarget->EnemyMesh->GetSocketLocation("Head").Y - 35 &&
-							HitResult.Location.Z <= CurrentTarget->EnemyMesh->GetSocketLocation("Head").Z + 35 && HitResult.Location.Z >= CurrentTarget->EnemyMesh->GetSocketLocation("Head").Z - 35) //check if we headshot the enemy by checking around the Head socket in all directions
+							HitResult.Location.Z <= CurrentTarget->EnemyMesh->GetSocketLocation("Head").Z + 35 && HitResult.Location.Z >= CurrentTarget->EnemyMesh->GetSocketLocation("Head").Z - 5) //check if we headshot the enemy by checking around the Head socket in all directions
 						{
 							CurrentTarget->TakeDamage(100); //call the takedamage function in our enemy class with more damage since it's a headshot
 							CurrentTarget->EnemyIsHeadshot = true;
